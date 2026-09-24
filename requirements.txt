@@ -1,0 +1,45 @@
+# AgroVision - crop disease detection platform for Indian farmers
+#
+# Split into two groups:
+#   [online] full cloud path  (pip install -r requirements.txt)
+#   [offline] stlite/Pyodide subset (see README "Offline mode"); the runtime
+#             serves a reduced package set from Pyodide itself.
+
+# ---- App / UI ----
+streamlit>=1.32
+stlite>=0.1.0            # offline Pyodide/WASM runtime used by the PWA shell
+
+# ---- Computer vision (gatekeeper + soil preprocessing) ----
+opencv-python>=4.8
+opencv-python-headless>=4.8   # comment out if you need GUI windows on desktop
+numpy>=1.24
+Pillow>=10.0
+
+# ---- Image classifier ----
+# Online path runs TensorFlow + Grad-CAM.  The offline path runs a quantized
+# ONNX export through onnxruntime (available as a Pyodide package).
+tensorflow>=2.15
+tf-keras>=2.15
+onnx>=1.15
+onnxruntime>=1.17
+h5py>=3.10
+
+# ---- Soil OCR (online only; offline degrades to guided manual entry) ----
+pytesseract>=0.3.10
+# tesseract binary is NOT a pip package: see README system dependency notes.
+easyocr>=1.7          # optional heavier OCR engine; set USE_EASYOCR=1
+
+# ---- Soil/weather decision-layer scoring (scikit-learn ONLY) ----
+scikit-learn>=1.4
+
+# ---- Weather API ----
+requests>=2.31
+
+# ---- Data layer ----
+SQLAlchemy>=2.0
+
+# ---- TTS ----
+pyttsx3>=2.90          # desktop TTS; browser TTS used automatically on PWA
+
+# ---- Tooling ----
+pytest>=8.0

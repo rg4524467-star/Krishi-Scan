@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# App runtime artifacts
+agrovision.db
+agrovision/assets/uploads/
+agrovision/data/offline_journal.json
+
+# Model weights (large binaries - download/train, don't commit)
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+
+# PWA build output
+dist/
+.node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

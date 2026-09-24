@@ -1,0 +1,3957 @@
+{
+  "order": [
+    "apple_scab",
+    "apple_black_rot",
+    "apple_healthy",
+    "apple_rust",
+    "pepper_healthy",
+    "pepper_leaf_spot",
+    "blueberry_healthy",
+    "cherry_healthy",
+    "cherry_powdery_mildew",
+    "corn_gray_leaf_spot",
+    "corn_healthy",
+    "corn_leaf_blight",
+    "corn_common_rust",
+    "grape_esca",
+    "grape_leaf_blight",
+    "orange_citrus_greening",
+    "peach_bacterial_spot",
+    "peach_healthy",
+    "potato_healthy",
+    "potato_early_blight",
+    "potato_late_blight",
+    "raspberry_healthy",
+    "soybean_healthy",
+    "squash_powdery_mildew",
+    "strawberry_healthy",
+    "strawberry_leaf_scorch",
+    "tomato_early_blight",
+    "tomato_septoria_leaf_spot",
+    "tomato_healthy",
+    "tomato_bacterial_spot",
+    "tomato_late_blight",
+    "tomato_mosaic_virus",
+    "tomato_yellow_leaf_curl_virus",
+    "tomato_leaf_mold",
+    "tomato_spider_mites",
+    "tomato_target_spot",
+    "grape_healthy",
+    "grape_black_rot"
+  ],
+  "diseases": {
+    "apple_scab": {
+      "en": {
+        "name": "Apple scab (Venturia)",
+        "advice": "Scab favours cool, wet springs. Prune for airflow, remove fallen leaves, and apply a scab-approved fungicide before rain events.",
+        "next": "Show this photo at your agri-input dealer for the right scab spray, or call Kisan Call Centre 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Leaf litter / pruning-debris sanitation",
+            "dose": "Urea 2 kg/ac pre-leaf-fall; dolomitic lime 2.5 t/ac autumn",
+            "when": "Winter / leaf fall",
+            "note": "Breaks the sexual cycle of Venturia inaequalis",
+            "source": "NIPHM AICRP - IPM in Apple",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Apple.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP",
+            "dose": "600 g per 200 L water",
+            "when": "Green tip stage (1st spray)",
+            "phi": "per HP schedule",
+            "note": "HP Horticulture + YSP-UHF 2024 schedule",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "600 g per 200 L water",
+            "when": "Pink bud stage (2nd spray)",
+            "phi": "per HP schedule",
+            "note": "Alternatives at pink bud: propineb 600 g, or difenoconazole 30 ml per 200 L",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 50% WP",
+            "dose": "100 g per 200 L water",
+            "when": "Petal fall / pea stage (3rd spray)",
+            "phi": "per HP schedule",
+            "note": "Alternatives: thiophanate-methyl 100 g, hexaconazole 100 ml, myclobutanil 80 g per 200 L",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP (pre-harvest cover)",
+            "dose": "600 g per 200 L water",
+            "when": "20-25 days before harvest",
+            "phi": "20-25 days",
+            "note": "Cover sprays; protect scab-prone areas through fruit set",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "सेब का स्कैब रोग",
+        "advice": "स्कैब ठंडे, नम वसंत में अधिक फैलता है। हवा के संचार के लिए छँटाई करें, गिरी पत्तियाँ हटाएँ और बारिश से पहले स्कैब-रोधी फफूंदनाशक का छिड़काव करें।",
+        "next": "सही स्प्रे के लिए नज़दीकी कृषि दुकान पर यह फोटो दिखाएँ या किसान कॉल सेंटर 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Leaf litter / pruning-debris sanitation",
+            "dose": "Urea 2 kg/ac pre-leaf-fall; dolomitic lime 2.5 t/ac autumn",
+            "when": "सर्दी / पत्ती-गिरावट पर",
+            "note": "यूरिया 2 किलो/एकड़, डोलोमिटिक चूना 2.5 टन/हेक्टेयर; स्कैब (Venturia) का यौन चक्र तोड़ता है",
+            "source": "NIPHM AICRP - IPM in Apple",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Apple.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP",
+            "dose": "600 g per 200 L water",
+            "when": "हरी कली अवस्था (पहला छिड़काव)",
+            "phi": "HP अनुसूची के अनुसार",
+            "note": "HP बागवानी व YSP-UHF 2024 अनुसूची",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "600 g per 200 L water",
+            "when": "गुलाबी कली अवस्था (दूसरा छिड़काव)",
+            "phi": "HP अनुसूची के अनुसार",
+            "note": "गुलाबी कली पर विकल्प: प्रोपिनेब 600 ग्राम या डाइफ़ेनोकोनाज़ोल 30 मिली/200 लीटर",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 50% WP",
+            "dose": "100 g per 200 L water",
+            "when": "पंखुड़ी गिरने/मटर अवस्था (तीसरा छिड़काव)",
+            "phi": "HP अनुसूची के अनुसार",
+            "note": "विकल्प: थायोफैनेट-मिथाइल 100 ग्राम, हेक्साकोनाज़ोल 100 मिली, मायक्लोब्यूटानिल 80 ग्राम/200 लीटर",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP (pre-harvest cover)",
+            "dose": "600 g per 200 L water",
+            "when": "कटाई से 20-25 दिन पहले",
+            "phi": "20-25 दिन",
+            "note": "कटाई-पूर्व बचाव छिड़काव",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "ஆப்பிள் ஸ்கேப் நோய்",
+        "advice": "குளிர்ந்த, ஈரமான வசந்தத்தில் ஸ்கேப் வளர்கிறது. காற்றோட்டத்திற்கு கத்தரித்து, உதிர்ந்த இலைகளை அகற்றி, மழைக்கு முன் ஸ்கேப் மருந்தை தெளிக்கவும்.",
+        "next": "சரியான மருந்துக்கு அருகிலுள்ள வேளாண் கடையில் இந்தப் புகைப்படத்தைக் காட்டவும் அல்லது 1800-180-1551 ஐ அழைக்கவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Leaf litter / pruning-debris sanitation",
+            "dose": "Urea 2 kg/ac pre-leaf-fall; dolomitic lime 2.5 t/ac autumn",
+            "when": "குளிர் / இலை உதிர்வு",
+            "note": "யூரியா 2 கிலோ/ஏக்கர், டோலோமிடிக் சுண்ணாம்பு 2.5 டன்/ஹெக்டேர்; ஸ்கேப் இனப்பெருக்க சுழற்சியை உடைக்கும்",
+            "source": "NIPHM AICRP - IPM in Apple",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Apple.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP",
+            "dose": "600 g per 200 L water",
+            "when": "பச்சை மொட்டு நிலை (1வது தெளிப்பு)",
+            "phi": "HP அட்டவணை படி",
+            "note": "HP தோட்டக்கலை & YSP-UHF 2024 அட்டவணை",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "600 g per 200 L water",
+            "when": "பிங்க் பட் நிலை (2வது தெளிப்பு)",
+            "phi": "HP அட்டவணை படி",
+            "note": "பிங்க் பட் மாற்று: புரோபினெப் 600 கிராம் அல்லது டைஃபெனோகோனசோல் 30 மி.லி/200 லி",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 50% WP",
+            "dose": "100 g per 200 L water",
+            "when": "இதழ் உதிர்வு/பட்டாணி நிலை (3வது தெளிப்பு)",
+            "phi": "HP அட்டவணை படி",
+            "note": "மாற்று: தியோஃபனேட்-மெத்தில் 100 கிராம், ஹெக்சாகோனசோல் 100 மி.லி, மைக்குளோபூட்டனில் 80 கிராம்/200 லி",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP (pre-harvest cover)",
+            "dose": "600 g per 200 L water",
+            "when": "அறுவடைக்கு 20-25 நாட்கள் முன்",
+            "phi": "20-25 நாட்கள்",
+            "note": "அறுவடைக்கு முந்தைய தடுப்பு தெளிப்பு",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "apple_black_rot": {
+      "en": {
+        "name": "Apple black rot",
+        "advice": "Black rot enters through wounds after hail/wind and cankers. Prune out dead wood, remove mummified fruit, and apply a labeled fungicide during wet spells.",
+        "next": "Show this photo at your agri-input dealer for a black-rot spray, or call Kisan Call Centre 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Sanitation: prune out dead wood, remove mummified fruit",
+            "when": "Dormant season and as symptoms appear",
+            "note": "Prevents Botryosphaeria obtusa; fungicides rarely needed once followed",
+            "source": "NIPHM Apple + UMN Extension",
+            "source_url": "https://extension.umn.edu/plant-diseases/black-rot-apple",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Zineb 75% WP",
+            "dose": "600 g per 200 L water",
+            "when": "Fruit development stage, 20 days after the 4th spray",
+            "phi": "per HP schedule",
+            "note": "HP 2024 schedule lists zineb for scab and black rot",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Propineb 70% WP",
+            "dose": "600 g per 200 L water",
+            "when": "Fruit development stage, 20 days after the 4th spray",
+            "phi": "per HP schedule",
+            "note": "HP 2024 schedule lists propineb for scab and black rot",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          }
+        ]
+      },
+      "hi": {
+        "name": "सेब का ब्लैक रॉट",
+        "advice": "ब्लैक रॉट ओलावृष्टि/हवा के घावों से प्रवेश करता है। सूखी लकड़ी की छँटाई करें, ममीकृत फल हटाएँ और नम मौसम में अनुशंसित फफूंदनाशक लगाएँ।",
+        "next": "ब्लैक रॉट स्प्रे के लिए दुकान पर फोटो दिखाएँ या किसान कॉल सेंटर 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Sanitation: prune out dead wood, remove mummified fruit",
+            "when": "सुप्तावस्था और लक्षण दिखने पर",
+            "note": "सूखी लकड़ी काटें, ममीकृत फल हटाएँ; Botryosphaeria रोकता है",
+            "source": "NIPHM Apple + UMN Extension",
+            "source_url": "https://extension.umn.edu/plant-diseases/black-rot-apple",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Zineb 75% WP",
+            "dose": "600 g per 200 L water",
+            "when": "फल विकास अवस्था, चौथे छिड़काव के 20 दिन बाद",
+            "phi": "HP अनुसूची के अनुसार",
+            "note": "स्कैब व ब्लैक रॉट दोनों के लिए HP 2024 अनुसूची",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Propineb 70% WP",
+            "dose": "600 g per 200 L water",
+            "when": "फल विकास अवस्था, चौथे छिड़काव के 20 दिन बाद",
+            "phi": "HP अनुसूची के अनुसार",
+            "note": "स्कैब व ब्लैक रॉट दोनों के लिए HP 2024 अनुसूची",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          }
+        ]
+      },
+      "ta": {
+        "name": "ஆப்பிள் கருஞ்சிதைவு",
+        "advice": "காயம் வழியாக உள்நுழையும் நோய். உலர்ந்த கிளைகளை வெட்டி, அழுகிய பழங்களை அகற்றி, ஈரமான காலத்தில் பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் புகைப்படம் காட்டி மருந்து பெறவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Sanitation: prune out dead wood, remove mummified fruit",
+            "when": "செயலற்ற காலம் & அறிகுறி காணும்போது",
+            "note": "காய்ந்த கிளைகள் கத்தரி, மம்மிஃபைட் பழங்கள் நீக்கு; Botryosphaeria தடுக்கும்",
+            "source": "NIPHM Apple + UMN Extension",
+            "source_url": "https://extension.umn.edu/plant-diseases/black-rot-apple",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Zineb 75% WP",
+            "dose": "600 g per 200 L water",
+            "when": "பழ வளர்ச்சி நிலை, 4வது தெளிப்பின் 20 நாட்கள் பின்",
+            "phi": "HP அட்டவணை படி",
+            "note": "ஸ்கேப் & பிளாக் ராட் இரண்டுக்கும் HP 2024 அட்டவணை",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Propineb 70% WP",
+            "dose": "600 g per 200 L water",
+            "when": "பழ வளர்ச்சி நிலை, 4வது தெளிப்பின் 20 நாட்கள் பின்",
+            "phi": "HP அட்டவணை படி",
+            "note": "ஸ்கேப் & பிளாக் ராட் இரண்டுக்கும் HP 2024 அட்டவணை",
+            "source": "HP Dept. of Horticulture - Apple Spray Schedule 2024",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/SPRAYSCHEDULEofAppleEnglish.pdf",
+            "verify": true
+          }
+        ]
+      }
+    },
+    "apple_healthy": {
+      "en": {
+        "name": "Apple leaf (healthy)",
+        "advice": "No disease signs detected. Continue normal care: balanced fertiliser, adequate pruning, and weekly monitoring.",
+        "next": "Keep checking weekly; early spotting protects your crop.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "सेब की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं मिला। सामान्य देखभाल जारी रखें: संतुलित खाद, समय पर छँटाई और साप्ताहिक निगरानी।",
+        "next": "साप्ताहिक जाँच करते रहें; समय पर पहचान से फसल सुरक्षित रहती है।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "ஆப்பிள் இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. சீரான உரம், கத்தரித்தல், வாராந்திர கண்காணிப்புடன் வழக்கமான பராமரிப்பைத் தொடரவும்.",
+        "next": "வாரந்தோறும் சரிபார்க்கவும்; நேரத்தில் கண்டறிவது பயிரை பாதுகாக்கும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "apple_rust": {
+      "en": {
+        "name": "Apple rust (Gymnosporangium)",
+        "advice": "Rust needs juniper/malus hosts to complete its cycle. Remove nearby cedar/juniper, prune galls, and apply a labeled rust fungicide.",
+        "next": "Take this result to your dealer for an apple-rust fungicide dose, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Remove alternate host (juniper/cedar)",
+            "when": "Before infection period",
+            "note": "Gymnosporangium needs junipers to complete its cycle",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Plant rust-resistant cultivars",
+            "when": "Orchard establishment",
+            "note": "Red Delicious, Gala Supreme, Liberty resistant; Golden Delicious susceptible",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Myclobutanil (Rally 40WSP)",
+            "dose": "per label",
+            "when": "Tight cluster through first cover; 7-14 day intervals",
+            "phi": "14 days",
+            "note": "Most efficacious against cedar-apple rust; alternate FRAC groups",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb (protectant)",
+            "dose": "per label",
+            "when": "Tight cluster to first cover window",
+            "phi": "per label",
+            "note": "No HP/India recommendation found: US extension source",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": true
+          }
+        ]
+      },
+      "hi": {
+        "name": "सेब का रस्ट रोग",
+        "advice": "रस्ट के चक्र के लिए जुनिपर/सेब मेज़बान चाहिए। पास के देवदार/जुनिपर हटाएँ, गॉल काटें और अनुशंसित रस्ट फफूंदनाशक लगाएँ।",
+        "next": "सही मात्रा के लिए दुकान पर यह परिणाम दिखाएँ या 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Remove alternate host (juniper/cedar)",
+            "when": "संक्रमण काल से पहले",
+            "note": "जूनिपर/देवदार (परपोषी) हटाएँ; कवक का चक्र पूरा न होने दें",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Plant rust-resistant cultivars",
+            "when": "बाग लगाते समय",
+            "note": "रेड डेलिशियस, गाला सुप्रीम, लिबर्टी प्रतिरोधी; गोल्डन डेलिशियस संवेदनशील",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Myclobutanil (Rally 40WSP)",
+            "dose": "per label",
+            "when": "घने गुच्छ से पहले कवर तक; 7-14 दिन के अंतराल पर",
+            "phi": "14 दिन",
+            "note": "सीडर-ऐपल रस्ट में सबसे असरदार; FRAC समूह बदलें",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb (protectant)",
+            "dose": "per label",
+            "when": "घने गुच्छ से पहले कवर अवधि में",
+            "phi": "लेबल के अनुसार",
+            "note": "HP/भारत की अनुसूची नहीं मिली: विदेशी स्रोत, स्थानीय लेबल पक्का करें",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": true
+          }
+        ]
+      },
+      "ta": {
+        "name": "ஆப்பிள் துரு நோய்",
+        "advice": "துரு நோய் சுழற்சிக்கு ஜூனிபர்/மாலஸ் இடைவேளை தேவை. அருகிலுள்ள சிடார் ஜூனிபரை அகற்றி, கட்டிகளை வெட்டி, துரு மருந்தைப் பயன்படுத்தவும்.",
+        "next": "சரியான அளவுக்கு கடையில் முடிவைக் காட்டவும் அல்லது 1800-180-1551 ஐ அழைக்கவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Remove alternate host (juniper/cedar)",
+            "when": "தொற்று காலத்துக்கு முன்",
+            "note": "ஜூனிபர்/சிடார் (இடை ஓம்புயிர்) நீக்கவும்; காளான் சுழற்சி முழுமையாகாமல்",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Plant rust-resistant cultivars",
+            "when": "தோட்டம் அமைக்கும்போது",
+            "note": "ரெட் டெலிஷஸ், கலா சுப்ரீம், லிபர்டி எதிர்ப்பு; கோல்டன் டெலிஷஸ் மிக உணர்திறன்",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Myclobutanil (Rally 40WSP)",
+            "dose": "per label",
+            "when": "டைட் கிளஸ்டர் முதல் முதல் கவர் வரை; 7-14 நாள் இடைவெளி",
+            "phi": "14 நாட்கள்",
+            "note": "சிடார்-ஆப்பிள் ரஸ்ட் மிகவும் பயனுள்ள; FRAC குழுக்கள் மாற்று",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb (protectant)",
+            "dose": "per label",
+            "when": "டைட் கிளஸ்டர் முதல் முதல் கவர் வரை",
+            "phi": "லேபிள் படி",
+            "note": "HP/இந்தியா அட்டவணை இல்லை: வெளிநாட்டு தரவு, உள்ளூர் லேபிள் உறுதி செய்க",
+            "source": "NC State Extension - Cedar apple rust",
+            "source_url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+            "verify": true
+          }
+        ]
+      }
+    },
+    "pepper_healthy": {
+      "en": {
+        "name": "Bell pepper leaf (healthy)",
+        "advice": "Leaf appears healthy. Keep the greenhouse/beds well ventilated and rotate crops to hold off bacterial diseases.",
+        "next": "Monitor weekly; quarantine new plants that look off.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "शिमला मिर्च की पत्ती (स्वस्थ)",
+        "advice": "पत्ती स्वस्थ लग रही है। ग्रीनहाउस/क्यारियों में हवा बनी रखें और जीवाणु रोगों से बचने के लिए फसल चक्र अपनाएँ।",
+        "next": "साप्ताहिक निगरानी करें; संदिग्ध नए पौधों को अलग रखें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "பெல் மிளகு இலை (ஆரோக்கியமானது)",
+        "advice": "இலை ஆரோக்கியமாக உள்ளது. கிரீன்ஹவுஸ்/பாத்திகளில் காற்றோட்டம் வைத்து, பாக்டீரியா நோய்களுக்கு பயிர் சுழற்சி செய்யவும்.",
+        "next": "வாரந்தோறும் கண்காணிக்கவும்; சந்தேகமான நாற்றுகளைத் தனிமைப்படுத்தவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "pepper_leaf_spot": {
+      "en": {
+        "name": "Bell pepper leaf spot (bacterial)",
+        "advice": "Wet weather spreads bacterial spot. Drip-irrigate, avoid overhead water, and apply a copper-based bactericide if confirmed.",
+        "next": "Confirm dose at your dealer; copper sprays work best in dry spells. Call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Crop rotation, clean seed, drip irrigation",
+            "when": "Field preparation through season",
+            "note": "2-3 year rotation between solanaceous crops; pathogen-free seed; no overhead irrigation",
+            "source": "PNW Disease Handbook + NC State Extension",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/pepper-capsicum-spp-cercospora-frogeye-leaf-spot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Copper (e.g. Badge SC / Kocide)",
+            "dose": "0.75-2.25 pints/ac (per label)",
+            "when": "During wet periods; 3-10 day intervals",
+            "phi": "0 days (Badge SC)",
+            "note": "Also for organic/copper programmes; avoid excess soil copper",
+            "source": "PNW Plant Disease Handbook",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/pepper-capsicum-spp-cercospora-frogeye-leaf-spot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 12% + Mancozeb 63% WP (SAAF)",
+            "dose": "750 g product/ha",
+            "when": "Spray schedule from first symptom appearance",
+            "phi": "per label",
+            "note": "TNAU field trial: effective for chilli/pepper leaf spot",
+            "source": "TNAU study (Journal of Innovative Agriculture)",
+            "source_url": "https://www.cornous.com/article/journal-of-innovative-agriculture/chemical-control-of-major-diseases-of-chilli-by-new-fungicide-molecule-saaf",
+            "verify": true
+          }
+        ]
+      },
+      "hi": {
+        "name": "शिमला मिर्च पत्ती धब्बा",
+        "advice": "नम मौसम में जीवाणु धब्बा फैलता है। ड्रिप सिंचाई करें, ऊपर से पानी देने से बचें और पुष्टि पर तांबा-आधारित बैक्टीरियोसाइड लगाएँ।",
+        "next": "दुकान पर मात्रा पुष्टि करें; सूखे मौसम में कॉपर स्प्रे बेहतर। 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Crop rotation, clean seed, drip irrigation",
+            "when": "खेत तैयारी से पूरे मौसम तक",
+            "note": "2-3 साल सोलानेसी चक्र, रोग-मुक्त बीज, ऊपर से सिंचाई नहीं",
+            "source": "PNW Disease Handbook + NC State Extension",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/pepper-capsicum-spp-cercospora-frogeye-leaf-spot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Copper (e.g. Badge SC / Kocide)",
+            "dose": "0.75-2.25 pints/ac (per label)",
+            "when": "बरसात के मौसम में; 3-10 दिन के अंतराल पर",
+            "phi": "0 दिन (Badge SC)",
+            "note": "जैविक/कॉपर कार्यक्रम के लिए भी; मिट्टी में अतिरिक्त कॉपर न जमा करें",
+            "source": "PNW Plant Disease Handbook",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/pepper-capsicum-spp-cercospora-frogeye-leaf-spot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 12% + Mancozeb 63% WP (SAAF)",
+            "dose": "750 g product/ha",
+            "when": "पहले लक्षण से छिड़काव अनुसूची",
+            "phi": "लेबल के अनुसार",
+            "note": "मिर्च/शिमला मिर्च पत्ती धब्बा में TNAU खेत परीक्षण असरदार",
+            "source": "TNAU study (Journal of Innovative Agriculture)",
+            "source_url": "https://www.cornous.com/article/journal-of-innovative-agriculture/chemical-control-of-major-diseases-of-chilli-by-new-fungicide-molecule-saaf",
+            "verify": true
+          }
+        ]
+      },
+      "ta": {
+        "name": "பெல் மிளகு இலைப் புள்ளி",
+        "advice": "ஈரமான காலநிலையில் புள்ளி பரவுகிறது. சொட்டு நீர்ப்பாசனம் செய்து, தலைமேல் தண்ணீர் தவிர்த்து, செம்பு மருந்தைப் பயன்படுத்தவும்.",
+        "next": "கடையில் அளவை உறுதி செய்யவும்; வறட்சியில் செம்பு தெளிப்பு சிறந்தது.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Crop rotation, clean seed, drip irrigation",
+            "when": "வயல் தயாரிப்பு முதல் முழு பருவம்",
+            "note": "2-3 ஆண்டு சோலனேசி சுழற்சி, நோயற்ற விதை, மேல் நீர்ப்பாசனம் இல்லை",
+            "source": "PNW Disease Handbook + NC State Extension",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/pepper-capsicum-spp-cercospora-frogeye-leaf-spot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Copper (e.g. Badge SC / Kocide)",
+            "dose": "0.75-2.25 pints/ac (per label)",
+            "when": "மழை காலத்தில்; 3-10 நாட்கள் இடைவெளி",
+            "phi": "0 நாட்கள் (Badge SC)",
+            "note": "கரிம/காப்பர் திட்டங்களுக்கும்; மண்ணில் அதிக செப்பு தேங்கவிடாதீர்கள்",
+            "source": "PNW Plant Disease Handbook",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/pepper-capsicum-spp-cercospora-frogeye-leaf-spot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 12% + Mancozeb 63% WP (SAAF)",
+            "dose": "750 g product/ha",
+            "when": "முதல் அறிகுறியில் இருந்து தெளிப்பு அட்டவணை",
+            "phi": "லேபிள் படி",
+            "note": "மிளகாய் இலைப் புள்ளிக்கு TNAU வயல் சோதனை பயனுள்ளது",
+            "source": "TNAU study (Journal of Innovative Agriculture)",
+            "source_url": "https://www.cornous.com/article/journal-of-innovative-agriculture/chemical-control-of-major-diseases-of-chilli-by-new-fungicide-molecule-saaf",
+            "verify": true
+          }
+        ]
+      }
+    },
+    "blueberry_healthy": {
+      "en": {
+        "name": "Blueberry leaf (healthy)",
+        "advice": "No disease signs. Check soil pH stays low (4.2-5.5) and avoid mulch burns near the stem.",
+        "next": "Monitor weekly; watch for leaf spots after rains.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "ब्लूबेरी की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं। मिट्टी का pH (4.2-5.5) बनाए रखें और तने के पास मल्च जलन से बचें।",
+        "next": "साप्ताहिक निगरानी करें; बारिश के बाद धब्बों पर नज़र रखें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "புளூபெர்ரி இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. மண் pH (4.2-5.5) குறைவாக வைக்கவும்; தண்டுக்கு அருகில் தழை எரிவதைத் தவிர்க்கவும்.",
+        "next": "வாரந்தோறும் கண்காணிக்கவும்; மழைக்குப் பின் புள்ளிகளைப் பாருங்கள்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "cherry_healthy": {
+      "en": {
+        "name": "Cherry leaf (healthy)",
+        "advice": "No signs of cherry leaf spot. Clear winter debris and prune for airflow to keep it that way.",
+        "next": "Keep up weekly monitoring through the growing season.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "चेरी की पत्ती (स्वस्थ)",
+        "advice": "चेरी लीफ स्पॉट के कोई लक्षण नहीं। सर्दी का मलबा साफ करें और हवा के लिए छँटाई करें।",
+        "next": "पूरे मौसम साप्ताहिक निगरानी जारी रखें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "செர்ரி இலை (ஆரோக்கியமானது)",
+        "advice": "செர்ரி இலைப் புள்ளி இல்லை. குளிர்கால கழிவுகளை அகற்றி, காற்றோட்டத்திற்கு கத்தரிக்கவும்.",
+        "next": "பருவம் முழுவதும் வாராந்திர கண்காணிப்பைத் தொடரவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "cherry_powdery_mildew": {
+      "en": {
+        "name": "Cherry powdery mildew",
+        "advice": "White powdery coating on leaves in dry days + humid nights. Improve airflow, prune dense shoots, and apply a sulfur/neem-based spray early.",
+        "next": "Get a mildew-rated spray at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Tree spacing for air circulation",
+            "when": "Planting / orchard design",
+            "note": "Lower humidity; disease favoured by warm, humid conditions",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Lime sulphur 22% SC",
+            "dose": "0.8-2.0 L per acre",
+            "when": "Preventive cover sprays",
+            "phi": "per label",
+            "note": "Listed in NIPHM cherry package chemical table",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP",
+            "dose": "1 kg in 300-400 L water per acre",
+            "when": "Protective cover sprays",
+            "phi": "per label",
+            "note": "Generic option from NIPHM cherry table; confirm registration for powdery mildew",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": true
+          }
+        ]
+      },
+      "hi": {
+        "name": "चेरी चूर्णिल आसिता (पाउडरी मिल्ड्यू)",
+        "advice": "सूखे दिन + नम रात में पत्तियों पर सफेद फुंदी। हवा बढ़ाएँ, घने अंकुर छाँटें और सल्फर/नीम स्प्रे शुरुआत में करें।",
+        "next": "दुकान पर मिल्ड्यू-रेटेड स्प्रे लें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Tree spacing for air circulation",
+            "when": "रोपण / बाग डिज़ाइन",
+            "note": "पेड़ों का फासला; हवा के प्रवाह से नमी कम रहती है",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Lime sulphur 22% SC",
+            "dose": "0.8-2.0 L per acre",
+            "when": "बचाव छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "NIPHM चेरी पैकेज की रासायनिक तालिका से",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP",
+            "dose": "1 kg in 300-400 L water per acre",
+            "when": "सुरक्षा छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "NIPHM चेरी तालिका से सामान्य विकल्प; पंजीकरण पक्का करें",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": true
+          }
+        ]
+      },
+      "ta": {
+        "name": "செர்ரி வெள்ளைப் பூஞ்சை",
+        "advice": "வறண்ட பகல் + ஈர இரவில் இலைகளில் வெள்ளை கசிவு. காற்றோட்டம் அதிகரித்து, அடர்ந்த கிளைகளை வெட்டி, கந்தகம்/வேம்பு தெளிக்கவும்.",
+        "next": "கடையில் பூஞ்சை மருந்து வாங்கவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Tree spacing for air circulation",
+            "when": "நடவு / தோட்ட வடிவமைப்பு",
+            "note": "மர இடைவெளி; காற்று பரவல் ஈரப்பதத்தை குறைக்கும்",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Lime sulphur 22% SC",
+            "dose": "0.8-2.0 L per acre",
+            "when": "தடுப்பு தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "NIPHM செர்ரி தொகுப்பு வேதி அட்டவணை",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Captan 50% WP",
+            "dose": "1 kg in 300-400 L water per acre",
+            "when": "பாதுகாப்பு தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "NIPHM செர்ரி அட்டவணை பொது விருப்பம்; பதிவு உறுதி செய்க",
+            "source": "NIPHM AICRP - IPM in Cherry",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Cherry.pdf",
+            "verify": true
+          }
+        ]
+      }
+    },
+    "corn_gray_leaf_spot": {
+      "en": {
+        "name": "Maize gray leaf spot",
+        "advice": "Starts lower on the canopy in humid conditions. Use resistant hybrids, rotate away from corn, and apply a labeled fungicide early.",
+        "next": "Ask your dealer for a GLS-rated foliar spray, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant hybrids + 2-year maize break",
+            "when": "Before planting",
+            "note": "No hybrid immune; residue survives >1 yr",
+            "source": "Purdue Extension BP-56-W",
+            "source_url": "https://www.extension.purdue.edu/extmedia/bp/BP-56-W.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Propiconazole 25 EC",
+            "dose": "0.1% (1 ml/L)",
+            "when": "Single application near tasseling-early silking on susceptible hybrids",
+            "phi": "per label",
+            "note": "ICAR-IIMR rate for maize leaf blights extrapolated to GLS",
+            "source": "ICAR-IIMR + APS Phytopathology",
+            "source_url": "https://www.apsnet.org/publications/phytopathology/2001/May/Pages/91_5_477.aspx",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "1.5-2.0 kg/ha",
+            "when": "At first disease, repeat 10-15 d as needed; ahead of flowering best",
+            "phi": "per label",
+            "note": "NIPHM maize disease-package rate",
+            "source": "NIPHM IPM Package Maize",
+            "source_url": "https://niphm.gov.in/IPMPackages/Maize.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "मक्का ग्रे लीफ स्पॉट",
+        "advice": "नमी में पहले नीचली पत्तियों पर शुरू होता है। प्रतिरोधी संकर किस्में लगाएँ, मक्का चक्र न दोहराएँ और शुरुआत में ही फफूंदनाशक लगाएँ।",
+        "next": "GLS-रेटेड स्प्रे के लिए दुकान पर पूछें या 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant hybrids + 2-year maize break",
+            "when": "बुवाई से पहले",
+            "note": "प्रतिरोधी संकर + 2 साल मकई अंतराल; अवशेष 1 साल से ज़्यादा जीवित रहते हैं",
+            "source": "Purdue Extension BP-56-W",
+            "source_url": "https://www.extension.purdue.edu/extmedia/bp/BP-56-W.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Propiconazole 25 EC",
+            "dose": "0.1% (1 ml/L)",
+            "when": "संवेदनशील संकरों में मोकड़ी/शुरुआती दाना के पास एक छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "ICAR-IIMR की दर (मकई पत्ती झुलसा से अनुमान; स्थानीय लेबल पक्का करें)",
+            "source": "ICAR-IIMR + APS Phytopathology",
+            "source_url": "https://www.apsnet.org/publications/phytopathology/2001/May/Pages/91_5_477.aspx",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "1.5-2.0 kg/ha",
+            "when": "पहले रोग पर; ज़रूरत पड़े तो 10-15 दिन पर; फूल आने से पहले सबसे अच्छा",
+            "phi": "लेबल के अनुसार",
+            "note": "NIPHM मकई रोग पैकेज की दर",
+            "source": "NIPHM IPM Package Maize",
+            "source_url": "https://niphm.gov.in/IPMPackages/Maize.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "மக்காச்சோள சாம்பல் இலைப்புள்ளி",
+        "advice": "ஈரப்பதத்தில் கீழ் இலைகளில் தொடங்குகிறது. எதிர்ப்பு கலப்பினங்கள் பயன்படுத்தி, மக்காச்சோள சுழற்சி தவிர்த்து, ஆரம்ப கட்டத்தில் பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் GLS தெளிப்பு கேளுங்கள் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant hybrids + 2-year maize break",
+            "when": "நடவுக்கு முன்",
+            "note": "எதிர்ப்பு கலப்பினம் + 2 ஆண்டு சோள இடைவெளி; எச்சம் 1+ ஆண்டு வாழும்",
+            "source": "Purdue Extension BP-56-W",
+            "source_url": "https://www.extension.purdue.edu/extmedia/bp/BP-56-W.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Propiconazole 25 EC",
+            "dose": "0.1% (1 ml/L)",
+            "when": "உணர்திறன் கலப்பினத்தில் டாசல்/துவக்க தானியத்தில் ஒரு தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "ICAR-IIMR விகிதம் (சோள இலை ப்ளைட்டில் இருந்து; உள்ளூர் லேபிள் உறுதி)",
+            "source": "ICAR-IIMR + APS Phytopathology",
+            "source_url": "https://www.apsnet.org/publications/phytopathology/2001/May/Pages/91_5_477.aspx",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "1.5-2.0 kg/ha",
+            "when": "முதல் நோயில்; தேவைப்பட்டால் 10-15 நாளில்; பூப்பதற்கு முன் சிறந்தது",
+            "phi": "லேபிள் படி",
+            "note": "NIPHM சோள நோய் தொகுப்பு விகிதம்",
+            "source": "NIPHM IPM Package Maize",
+            "source_url": "https://niphm.gov.in/IPMPackages/Maize.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "corn_healthy": {
+      "en": {
+        "name": "Maize leaf (healthy)",
+        "advice": "No disease signs detected. Continue balanced nutrition, timely irrigation, and weekly scouting through the season.",
+        "next": "Keep monitoring weekly; catch leaf issues before they spread.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "मक्का की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं मिला। संतुलित पोषण, समय पर सिंचाई और पूरे मौसम साप्ताहिक निरीक्षण जारी रखें।",
+        "next": "साप्ताहिक निगरानी करते रहें; पत्ती की समस्याएँ फैलने से पहले पकड़ें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "மக்காச்சோள இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. சீரான உரம், சரியான நேர நீர்ப்பாசனம், வாராந்திர கண்காணிப்பு தொடரவும்.",
+        "next": "வாரந்தோறும் கண்காணிக்கவும்; பரவும் முன் கண்டறியவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "corn_leaf_blight": {
+      "en": {
+        "name": "Maize northern leaf blight",
+        "advice": "Warm, wet weather favours blight. Plant resistant hybrids, practice rotation, and spray a labeled strobilurin/triazole at first sign.",
+        "next": "Confirm a blight-rated spray at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Seed treatment: carbendazim + captan (1:1)",
+            "dose": "2 g/kg seed",
+            "when": "At sowing",
+            "note": "TNAU recommendation for Turcicum/Maydis leaf blight",
+            "source": "TNAU Agritech Portal",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_disease_faqs.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Propiconazole 25 EC",
+            "dose": "0.1% (1 ml/L)",
+            "when": "At first symptom; 2 sprays ~10-15 d apart",
+            "phi": "per label",
+            "note": "ICAR-IIMR validated; tebuconazole 0.05% superior for Turcicum blight",
+            "source": "ICAR-IIMR (2016)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880356/",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP (Indofil M-45)",
+            "dose": "4 g/L; 1.5-2 kg/ha",
+            "when": "At symptom appearance; 3-4 sprays at 7-10 d interval",
+            "phi": "per label",
+            "note": "TNAU recommendation",
+            "source": "TNAU Agritech Portal",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_disease_faqs.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Residue destruction, rotation, balanced N",
+            "when": "Post-harvest to pre-plant",
+            "note": "Excess nitrogen worsens foliar blights",
+            "source": "ICAR-IIMR",
+            "source_url": "https://www.ijcmas.com/6-3-2017/Dan%20Singh%20Jakhar%2C%20et%20al.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "मक्का लीफ ब्लाइट",
+        "advice": "गर्म-नम मौसम में ब्लाइट बढ़ता है। प्रतिरोधी संकर लगाएँ, फसल चक्र करें और पहले संकेत पर स्ट्रोबिल्यूरिन/ट्रायज़ोल फफूंदनाशक छिड़कें।",
+        "next": "दुकान पर ब्लाइट-रेटेड स्प्रे की पुष्टि करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Seed treatment: carbendazim + captan (1:1)",
+            "dose": "2 g/kg seed",
+            "when": "बुवाई के समय",
+            "note": "कार्बेन्डाज़िम+कैप्टन (1:1) 2 ग्राम/किलो बीज; टर्सिकम/मेडिस झुलसा के लिए TNAU सलाह",
+            "source": "TNAU Agritech Portal",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_disease_faqs.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Propiconazole 25 EC",
+            "dose": "0.1% (1 ml/L)",
+            "when": "पहले लक्षण पर; 10-15 दिन के अंतराल पर 2 छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "ICAR-IIMR द्वारा प्रमाणित; टर्सिकम झुलसा के लिए टेबुकोनाज़ोल 0.05% बेहतर",
+            "source": "ICAR-IIMR (2016)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880356/",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP (Indofil M-45)",
+            "dose": "4 g/L; 1.5-2 kg/ha",
+            "when": "लक्षण दिखते ही; 7-10 दिन के अंतराल पर 3-4 छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU की सलाह",
+            "source": "TNAU Agritech Portal",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_disease_faqs.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Residue destruction, rotation, balanced N",
+            "when": "कटाई के बाद से बुवाई से पहले",
+            "note": "अवशेष नष्ट करें, फसल चक्र, संतुलित नाइट्रोजन; अतिरिक्त N से झुलसा बढ़ता है",
+            "source": "ICAR-IIMR",
+            "source_url": "https://www.ijcmas.com/6-3-2017/Dan%20Singh%20Jakhar%2C%20et%20al.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "மக்காச்சோள இலைக் கருகல்",
+        "advice": "வெப்பமான ஈரப்பதம் கருகலை ஊக்குவிக்கிறது. எதிர்ப்பு கலப்பினங்கள், பயிர் சுழற்சி, முதல் அறிகுறியில் பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் பூஞ்சைக்கொல்லியை உறுதி செய்யவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Seed treatment: carbendazim + captan (1:1)",
+            "dose": "2 g/kg seed",
+            "when": "விதைப்பு நேரத்தில்",
+            "note": "கார்பென்டாசிம்+கேப்டான் (1:1) 2 கிராம்/கிலோ விதை; டர்சிகம்/மேடிஸ் ப்ளைட் TNAU",
+            "source": "TNAU Agritech Portal",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_disease_faqs.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Propiconazole 25 EC",
+            "dose": "0.1% (1 ml/L)",
+            "when": "முதல் அறிகுறியில்; 10-15 நாள் இடைவெளியில் 2 தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "ICAR-IIMR உறுதி; டர்சிகம் ப்ளைட்டில் டெபுகோனசோல் 0.05% சிறந்தது",
+            "source": "ICAR-IIMR (2016)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880356/",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP (Indofil M-45)",
+            "dose": "4 g/L; 1.5-2 kg/ha",
+            "when": "அறிகுறி தோன்றியதும்; 7-10 நாள் இடைவெளியில் 3-4 தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "TNAU பரிந்துரை",
+            "source": "TNAU Agritech Portal",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_disease_faqs.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Residue destruction, rotation, balanced N",
+            "when": "அறுவடைக்குப் பின் முதல் நடவு முன்",
+            "note": "எச்சம் அழிப்பு, பயிர் சுழற்சி, சமநிலை நைட்ரஜன்; அதிக N ப்ளைட் அதிகரிக்கும்",
+            "source": "ICAR-IIMR",
+            "source_url": "https://www.ijcmas.com/6-3-2017/Dan%20Singh%20Jakhar%2C%20et%20al.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "corn_common_rust": {
+      "en": {
+        "name": "Maize common rust",
+        "advice": "A cool, humid favours rust pustules. Use tolerant hybrids and apply a protective fungicide if lesions are widespread before tasseling.",
+        "next": "Confirm rust treatment dose with your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant hybrids (preferred)",
+            "when": "Variety selection",
+            "note": "Fungicides rarely needed on resistant hybrids",
+            "source": "CABI/Plantwise + UNL Extension",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/maize_common_rust_225.htm",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Destroy volunteer maize and Oxalis weeds",
+            "when": "Before new crop",
+            "note": "Puccinia sorghi alternates on Oxalis spp.",
+            "source": "CABI/Plantwise Lucidcentral",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/maize_common_rust_225.htm",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "1.5-2 kg/ha",
+            "when": "At first pustule; up to 3 sprays at 15 d interval",
+            "phi": "per label",
+            "note": "NIPHM maize package",
+            "source": "NIPHM IPM Package Maize",
+            "source_url": "https://niphm.gov.in/IPMPackages/Maize.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Azoxystrobin",
+            "dose": "0.05% (per label)",
+            "when": "Foliar, early infection period",
+            "phi": "per label",
+            "note": "ICAR-IIMR trial: 53.8% control of common rust",
+            "source": "ICAR-IIMR (Hooda et al. 2016)",
+            "source_url": "https://epubs.icar.org.in/index.php/IPPJ/article/view/71326",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "मक्का कॉमन रस्ट",
+        "advice": "ठंडा-नम मौसम रस्ट फुंसियों को बढ़ाता है। सहनशील संकर लगाएँ और भुट्टा आने से पहले व्यापक घावों पर सुरक्षात्मक फफूंदनाशक लगाएँ।",
+        "next": "रस्ट उपचार मात्रा दुकान से पुष्टि करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant hybrids (preferred)",
+            "when": "किस्म चुनाव",
+            "note": "प्रतिरोधी संकर ही बेहतर; इन पर फफूंदनाशक कम चाहिए",
+            "source": "CABI/Plantwise + UNL Extension",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/maize_common_rust_225.htm",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Destroy volunteer maize and Oxalis weeds",
+            "when": "नई फसल से पहले",
+            "note": "स्वयंसेवी मकई और ऑक्सालिस खरपतवार हटाएँ (Puccinia का परपोषी)",
+            "source": "CABI/Plantwise Lucidcentral",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/maize_common_rust_225.htm",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "1.5-2 kg/ha",
+            "when": "पहले फुंसी पर; 15 दिन के अंतराल पर 3 छिड़काव तक",
+            "phi": "लेबल के अनुसार",
+            "note": "NIPHM मकई पैकेज",
+            "source": "NIPHM IPM Package Maize",
+            "source_url": "https://niphm.gov.in/IPMPackages/Maize.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Azoxystrobin",
+            "dose": "0.05% (per label)",
+            "when": "पत्ती पर, शुरुआती संक्रमण काल में",
+            "phi": "लेबल के अनुसार",
+            "note": "ICAR-IIMR परीक्षण में आम रस्ट पर 53.8% नियंत्रण",
+            "source": "ICAR-IIMR (Hooda et al. 2016)",
+            "source_url": "https://epubs.icar.org.in/index.php/IPPJ/article/view/71326",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "மக்காச்சோள துரு",
+        "advice": "குளிர் ஈரப்பதம் துருவை அதிகரிக்கிறது. சகிப்பு கலப்பினங்கள் பயன்படுத்தி, கதிர் வரும் முன் தடுப்பு மருந்து தெளிக்கவும்.",
+        "next": "துரு மருந்து அளவை கடையில் உறுதி செய்யவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant hybrids (preferred)",
+            "when": "இரகத் தேர்வு",
+            "note": "எதிர்ப்பு கலப்பினமே சிறந்தது; இவற்றில் மருந்து குறைவே",
+            "source": "CABI/Plantwise + UNL Extension",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/maize_common_rust_225.htm",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Destroy volunteer maize and Oxalis weeds",
+            "when": "புதிய பயிருக்கு முன்",
+            "note": "தன்னார்வ சோளம், ஆக்சாலிஸ் களை நீக்கு (Puccinia இடை ஓம்புயிர்)",
+            "source": "CABI/Plantwise Lucidcentral",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/maize_common_rust_225.htm",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "1.5-2 kg/ha",
+            "when": "முதல் புடைப்பில்; 15 நாள் இடைவெளியில் 3 தெளிப்பு வரை",
+            "phi": "லேபிள் படி",
+            "note": "NIPHM சோள தொகுப்பு",
+            "source": "NIPHM IPM Package Maize",
+            "source_url": "https://niphm.gov.in/IPMPackages/Maize.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Azoxystrobin",
+            "dose": "0.05% (per label)",
+            "when": "இலையில், துவக்க தொற்று காலத்தில்",
+            "phi": "லேபிள் படி",
+            "note": "ICAR-IIMR சோதனையில் பொது ரஸ்ட் 53.8% கட்டுப்பாடு",
+            "source": "ICAR-IIMR (Hooda et al. 2016)",
+            "source_url": "https://epubs.icar.org.in/index.php/IPPJ/article/view/71326",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "grape_esca": {
+      "en": {
+        "name": "Grape esca (black measles)",
+        "advice": "A trunk/wood disease showing tiger-stripe leaves and berry shrivel. Prune out infected wood, improve vine health, and avoid new wounds; no direct cure.",
+        "next": "Remove declining vines and consult your horticulture officer; call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "No curative chemical exists",
+            "note": "Esca is a trunk disease; fungicides cannot eradicate established wood infections",
+            "source": "UC IPM Grape Esca + PNW Handbook",
+            "source_url": "https://ipm.ucanr.edu/agriculture/grape/esca-black-measles/",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rogue and destroy infected/declining vines",
+            "when": "As soon as symptoms appear",
+            "note": "Core management; infected vines cannot be cured",
+            "source": "Koppert + UC IPM",
+            "source_url": "https://www.koppert.com/plant-diseases/esca-disease-of-grapes/",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Certified disease-free planting material",
+            "when": "Vineyard establishment",
+            "note": "Avoids introducing esca/Petri fungi via nursery stock",
+            "source": "PNW Handbook",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/grape-vitis-spp-esca-young-esca-petri-disease",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Prune in dry weather; protect and seal large cuts",
+            "when": "Dormant pruning",
+            "note": "Wounds stay susceptible up to ~4 months; disinfest tools between vines",
+            "source": "PNW Handbook (Gramaje et al. 2018)",
+            "source_url": "https://pnwhandbooks.org/node/2774/print",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "अंगूर एस्का रोग",
+        "advice": "तने का रोग: पत्तियों पर बाघ-धारी और फल सिकुड़न। रोगी लकड़ी छाँटें, बेल को स्वस्थ रखें और नए घावों से बचें; कोई सीधा इलाज नहीं।",
+        "next": "कमज़ोर बेलें हटाएँ और उद्यान अधिकारी से परामर्श लें; 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "No curative chemical exists",
+            "note": "एस्का तना रोग है; स्थापित लकड़ी के संक्रमण पर कोई फफूंदनाशक असर नहीं करता",
+            "source": "UC IPM Grape Esca + PNW Handbook",
+            "source_url": "https://ipm.ucanr.edu/agriculture/grape/esca-black-measles/",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rogue and destroy infected/declining vines",
+            "when": "लक्षण दिखते ही",
+            "note": "रोगी/गिरती बेलें उखाड़ें - मुख्य उपाय; संक्रमित बेल ठीक नहीं होती",
+            "source": "Koppert + UC IPM",
+            "source_url": "https://www.koppert.com/plant-diseases/esca-disease-of-grapes/",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Certified disease-free planting material",
+            "when": "बाग बसाते समय",
+            "note": "प्रमाणित रोग-मुक्त पौध सामग्री; नर्सरी से एस्का/पेट्री कवक न आए",
+            "source": "PNW Handbook",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/grape-vitis-spp-esca-young-esca-petri-disease",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Prune in dry weather; protect and seal large cuts",
+            "when": "सुप्तावस्था में छँटाई",
+            "note": "सूखे मौसम में छाँटें, बड़े कटों की सुरक्षा/सीलन; बेलों के बीच औज़ार साफ़ करें",
+            "source": "PNW Handbook (Gramaje et al. 2018)",
+            "source_url": "https://pnwhandbooks.org/node/2774/print",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "திராட்சை எஸ்கா நோய்",
+        "advice": "தண்டு நோய்: இலைகளில் கோடுகளும் பழ சுருக்கமும். நோய் மரத்தை வெட்டி, கொடியை நலமாக வைத்து, காயம் ஏற்படுத்தாமல் இருக்கவும்.",
+        "next": "பலவீன கொடிகளை அகற்றி வேளாண் அலுவலரிடம் கேளுங்கள்; 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "No curative chemical exists",
+            "note": "எஸ்கா தண்டு நோய்; மரத் தொற்றில் எந்த பூஞ்சைக்கொல்லியும் பலன் இல்லை",
+            "source": "UC IPM Grape Esca + PNW Handbook",
+            "source_url": "https://ipm.ucanr.edu/agriculture/grape/esca-black-measles/",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rogue and destroy infected/declining vines",
+            "when": "அறிகுறி தோன்றியதும்",
+            "note": "நோய்/சாயும் கொடிகளை பிடுங்கு - முதன்மை வழி; தொற்று கொடி குணமாகாது",
+            "source": "Koppert + UC IPM",
+            "source_url": "https://www.koppert.com/plant-diseases/esca-disease-of-grapes/",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Certified disease-free planting material",
+            "when": "தோட்டம் அமைக்கும்போது",
+            "note": "சான்று பெற்ற நோயற்ற நடவுப் பொருள்; நர்சரியில் எஸ்கா/பெட்ரி காளான் வராமல்",
+            "source": "PNW Handbook",
+            "source_url": "https://pnwhandbooks.org/plantdisease/host-disease/grape-vitis-spp-esca-young-esca-petri-disease",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Prune in dry weather; protect and seal large cuts",
+            "when": "செயலற்ற கால கத்தரிப்பு",
+            "note": "வறண்ட மண்ணில் கத்தரி, பெரிய வெட்டை பாதுகாக்க/மூடு; கொடிகளுக்குச் சுத்த கருவிகள்",
+            "source": "PNW Handbook (Gramaje et al. 2018)",
+            "source_url": "https://pnwhandbooks.org/node/2774/print",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "grape_leaf_blight": {
+      "en": {
+        "name": "Grape leaf blight",
+        "advice": "Irregular brown blotches spread in wet spells. Remove affected leaves, improve canopy airflow, and apply a protective fungicide during humid weather.",
+        "next": "Ask your dealer for a blight-rated spray, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Sanitation: remove diseased leaves/twigs, open canopy",
+            "when": "Late season",
+            "note": "Leaf blight (Pseudocercospora vitis) is a late-season disease",
+            "source": "PlantVillage Grape + TNAU",
+            "source_url": "https://plantvillage.psu.edu/topics/grape/infos",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Bordeaux mixture (1%)",
+            "dose": "1.0%",
+            "when": "Early-season protective spray",
+            "phi": "~21 days before harvest",
+            "note": "Standard grape foliar-fungal treatment; leaf-blight specific dose",
+            "source": "TNAU Agritech Portal - grapes",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_postharvest_grapes_1.html",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride",
+            "dose": "0.25% (2.5 g/L)",
+            "when": "At symptom appearance; repeat 10-15 d",
+            "phi": "per label",
+            "note": "Standard grape dose; routine sprays for other grape diseases reduce leaf blight",
+            "source": "TNAU Agritech Portal - grapes",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_postharvest_grapes_1.html",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "अंगूर लीफ ब्लाइट",
+        "advice": "नम मौसम में भूरे अनियमित धब्बे फैलते हैं। रोगी पत्तियाँ हटाएँ, कैनोपी में हवा सुधारें और नमी में सुरक्षात्मक फफूंदनाशक लगाएँ।",
+        "next": "दुकान से ब्लाइट-रेटेड स्प्रे लें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Sanitation: remove diseased leaves/twigs, open canopy",
+            "when": "मौसम के अंत में",
+            "note": "रोगी पत्तियाँ/टहनियाँ हटाएँ, बेल खोलें; Pseudocercospora देर-मौसम रोग है",
+            "source": "PlantVillage Grape + TNAU",
+            "source_url": "https://plantvillage.psu.edu/topics/grape/infos",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Bordeaux mixture (1%)",
+            "dose": "1.0%",
+            "when": "शुरुआती मौसम में बचाव छिड़काव",
+            "phi": "~21 दिन कटाई से पहले",
+            "note": "अंगूर का मानक पत्ती-कवक उपचार; झुलसा-विशिष्ट मात्रा स्थानीय लेबल से पक्का करें",
+            "source": "TNAU Agritech Portal - grapes",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_postharvest_grapes_1.html",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride",
+            "dose": "0.25% (2.5 g/L)",
+            "when": "लक्षण दिखते ही; 10-15 दिन पर दोहराएँ",
+            "phi": "लेबल के अनुसार",
+            "note": "अंगूर की मानक मात्रा; नियमित छिड़काव अन्य रोगों के साथ झुलसा भी घटाते हैं",
+            "source": "TNAU Agritech Portal - grapes",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_postharvest_grapes_1.html",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "திராட்சை இலைக் கருகல்",
+        "advice": "ஈரத்தில் பழுப்பு புள்ளிகள் பரவும். நோய் இலைகளை அகற்றி, காற்றோட்டம் மேம்படுத்தி, தடுப்பு பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் கருகல் மருந்து கேளுங்கள் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Sanitation: remove diseased leaves/twigs, open canopy",
+            "when": "பருவ இறுதியில்",
+            "note": "நோய் இலைகள்/கொடிகள் நீக்கு, கூடாரம் திறக்க; Pseudocercospora பருவ-இறுதி நோய்",
+            "source": "PlantVillage Grape + TNAU",
+            "source_url": "https://plantvillage.psu.edu/topics/grape/infos",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Bordeaux mixture (1%)",
+            "dose": "1.0%",
+            "when": "துவக்க பருவ தடுப்பு தெளிப்பு",
+            "phi": "~21 நாட்கள் அறுவடைக்கு முன்",
+            "note": "திராட்சை மானிய இலை-காளான் சிகிச்சை; ப்ளைட் அளவு உள்ளூர் லேபிள் உறுதி",
+            "source": "TNAU Agritech Portal - grapes",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_postharvest_grapes_1.html",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride",
+            "dose": "0.25% (2.5 g/L)",
+            "when": "அறிகுறி தோன்றியதும்; 10-15 நாளில் மீண்டும்",
+            "phi": "லேபிள் படி",
+            "note": "திராட்சை மானிய அளவு; வழக்க தெளிப்புகள் பிற நோயுடன் ப்ளைட்டையும் குறைக்கும்",
+            "source": "TNAU Agritech Portal - grapes",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_postharvest_grapes_1.html",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "orange_citrus_greening": {
+      "en": {
+        "name": "Citrus greening (HLB)",
+        "advice": "A serious bacterial disease spread by psyllids, causing yellow mottling and misshapen fruit. Remove infected trees to protect the grove; no cure exists.",
+        "next": "Act fast - report to your horticulture department or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No cure - rogue infected trees",
+            "when": "As soon as trees turn unproductive / test positive",
+            "note": "HLB has no cure; use certified disease-free budded plants; enforce budwood quarantine",
+            "source": "TNAU Agritech Portal - Citrus greening; ICAR-CCRI Nagpur",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/citrus_diseases_5.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiamethoxam 25 WG (psyllid vector control)",
+            "dose": "0.008% foliar or soil drench",
+            "when": "~20 days before flushing; repeat during flush at 20-day intervals",
+            "note": "ICAR-CCRI best module: thiamethoxam + abamectin 0.0006% + imidacloprid 0.009%; rotate MoA groups",
+            "source": "ICAR-Central Citrus Research Institute Nagpur (IJAgS 87(5))",
+            "source_url": "https://epubs.icar.org.in/index.php/IJAgS/article/view/70211",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Imidacloprid 17.8 SL (vector control, PAU)",
+            "dose": "0.4 ml/L",
+            "when": "March and first week of September, aligned with new flush",
+            "note": "PAU Kinnow plan = vector spray + foliar tetracycline HCl 0.6 g/L & streptocycline 0.025 g/L (suppression only, not a cure)",
+            "source": "PAU Ludhiana (Indian Ecological Society, 2025)",
+            "source_url": "https://indianecologicalsociety.com/wp-content/themes/ecology/volume_pdfs/1744860706.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "संतरा साइट्रस ग्रीनिंग (एचएलबी)",
+        "advice": "साइलिड से फैलने वाला गंभीर जीवाणु रोग: पीले धब्बेदार पत्ते और विकृत फल। बाग बचाने के लिए रोगी पेड़ हटाएँ; कोई इलाज नहीं।",
+        "next": "तुरंत कार्य करें - उद्यान विभाग को सूचित करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No cure - rogue infected trees",
+            "when": "पेड़ अनुत्पादक होते ही / परीक्षण पॉज़िटिव पर",
+            "note": "HLB का कोई इलाज नहीं; प्रमाणित कलम पौधे, बुडवुड क्वारंटीन",
+            "source": "TNAU Agritech Portal - Citrus greening; ICAR-CCRI Nagpur",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/citrus_diseases_5.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiamethoxam 25 WG (psyllid vector control)",
+            "dose": "0.008% foliar or soil drench",
+            "when": "कोंपल से ~20 दिन पहले; कोंपल के दौरान 20 दिन पर दोहराएँ",
+            "note": "ICAR-CCRI मॉड्यूल: थायामेथोक्सम + अबामेक्टिन 0.0006% + इमिडाक्लोप्रिड 0.009%; MoA बदलें",
+            "source": "ICAR-Central Citrus Research Institute Nagpur (IJAgS 87(5))",
+            "source_url": "https://epubs.icar.org.in/index.php/IJAgS/article/view/70211",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Imidacloprid 17.8 SL (vector control, PAU)",
+            "dose": "0.4 ml/L",
+            "when": "मार्च और सितंबर पहले सप्ताह, नई कोंपल के साथ",
+            "note": "PAU किन्नू योजना: कीट छिड़काव + पत्ती पर टेट्रासाइक्लिन HCl 0.6 ग्राम/लीटर व स्ट्रेप्टोसाइक्लिन 0.025 ग्राम/लीटर (सिर्फ़ दमन, इलाज नहीं)",
+            "source": "PAU Ludhiana (Indian Ecological Society, 2025)",
+            "source_url": "https://indianecologicalsociety.com/wp-content/themes/ecology/volume_pdfs/1744860706.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "சிட்ரஸ் கிரீனிங் (HLB)",
+        "advice": "சைலிட் வழியாக பரவும் தீவிர பாக்டீரியா நோய்: மஞ்சள் இலைகள், வடிவம் கெட்ட பழங்கள். தோப்பு காக்க நோய் மரங்களை அகற்றவும்.",
+        "next": "உடனே செயல்படுங்கள் - வேளாண் துறைக்கு தெரிவிக்கவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No cure - rogue infected trees",
+            "when": "மரம் பலனற்றதாக / சோதனை நேர்மறையாக",
+            "note": "HLB க்கு மருந்து இல்லை; சான்று கலப்பு செடிகள், மொட்டு தனிமை",
+            "source": "TNAU Agritech Portal - Citrus greening; ICAR-CCRI Nagpur",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/citrus_diseases_5.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiamethoxam 25 WG (psyllid vector control)",
+            "dose": "0.008% foliar or soil drench",
+            "when": "தளிர் வெடிக்க ~20 நாள் முன்; தளிர் போது 20 நாளில் மீண்டும்",
+            "note": "ICAR-CCRI மாதிரி: தியாமெத்தோக்சம் + அபாமெக்டின் 0.0006% + இமிடாகுளோபிரிட் 0.009%; MoA மாற்று",
+            "source": "ICAR-Central Citrus Research Institute Nagpur (IJAgS 87(5))",
+            "source_url": "https://epubs.icar.org.in/index.php/IJAgS/article/view/70211",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Imidacloprid 17.8 SL (vector control, PAU)",
+            "dose": "0.4 ml/L",
+            "when": "மார்ச் & செப்டம்பர் முதல் வாரம், புது தளிருடன்",
+            "note": "PAU கிண்ணு திட்டம்: பூச்சி தெளிப்பு + இலை டெட்ராசைக்ளின் HCl 0.6 கிராம்/லி & ஸ்டிரெப்டோசைக்ளின் 0.025 கிராம்/லி (அடக்குதல் மட்டும்)",
+            "source": "PAU Ludhiana (Indian Ecological Society, 2025)",
+            "source_url": "https://indianecologicalsociety.com/wp-content/themes/ecology/volume_pdfs/1744860706.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "peach_bacterial_spot": {
+      "en": {
+        "name": "Peach bacterial spot",
+        "advice": "Dark spots on leaves and fruit in warm wet weather. Avoid overhead irrigation, thin the canopy, and apply a copper-based spray at early signs.",
+        "next": "Confirm a copper/bactericide dose at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride + Streptocycline",
+            "dose": "600 g + 20 g per spray tank",
+            "when": "At pink bud; repeat July-August for canker",
+            "phi": "per HP schedule",
+            "note": "Official HP stone-fruit spray schedule 2022; tank volume not stated in source",
+            "source": "Directorate of Agriculture, Govt of Himachal Pradesh - Stone fruit spray schedule",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/new-spray-schedules-for-stone-fruits.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Streptocycline 0.01% + Copper oxychloride 0.2%",
+            "dose": "Streptocycline 0.01% + COC 0.2%",
+            "when": "Spray at onset; paste cankers",
+            "note": "ICAR Indian Horticulture guidance for peach/plum bacterial gumming; also Bordeaux paste on cankers",
+            "source": "ICAR - Indian Horticulture",
+            "source_url": "http://epubs.icar.org.in/ejournal/index.php/IndHort/article/view/90372",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Dormant copper, resistant cultivars, orchard hygiene",
+            "when": "Dormant to early spring",
+            "note": "Prune in dry weather; remove diseased shoots",
+            "source": "WVU Extension (non-India corroboration)",
+            "source_url": "https://extension.wvu.edu/lawn-gardening-pests/plant-disease/tree-fruit-disease/bacterial-spot",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "आड़ू जीवाणु धब्बा",
+        "advice": "गर्म-नम मौसम में पत्तियों और फलों पर काले धब्बे। ऊपर से सिंचाई से बचें, कैनोपी पतली करें और शुरुआती संकेत पर कॉपर स्प्रे करें।",
+        "next": "दुकान पर कॉपर/बैक्टीरियोसाइड मात्रा पुष्टि करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride + Streptocycline",
+            "dose": "600 g + 20 g per spray tank",
+            "when": "गुलाबी कली पर; कैंकर हेतु जुलाई-अगस्त में दोहराएँ",
+            "phi": "HP अनुसूची के अनुसार",
+            "note": "HP पत्थर-फल छिड़काव अनुसूची 2022; टैंक मात्रा स्रोत में नहीं दी",
+            "source": "Directorate of Agriculture, Govt of Himachal Pradesh - Stone fruit spray schedule",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/new-spray-schedules-for-stone-fruits.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Streptocycline 0.01% + Copper oxychloride 0.2%",
+            "dose": "Streptocycline 0.01% + COC 0.2%",
+            "when": "शुरुआत में छिड़कें; कैंकर पर लेप",
+            "note": "आड़ू/बेर बैक्टीरियल गोंद के लिए ICAR Indian Horticulture सलाह; कैंकर पर बोर्डो लेप",
+            "source": "ICAR - Indian Horticulture",
+            "source_url": "http://epubs.icar.org.in/ejournal/index.php/IndHort/article/view/90372",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Dormant copper, resistant cultivars, orchard hygiene",
+            "when": "सुप्तावस्था से शुरुआती वसंत",
+            "note": "सूखे मौसम में छँटाई; रोगी टहनियाँ हटाएँ",
+            "source": "WVU Extension (non-India corroboration)",
+            "source_url": "https://extension.wvu.edu/lawn-gardening-pests/plant-disease/tree-fruit-disease/bacterial-spot",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "பீச் பாக்டீரியா புள்ளி",
+        "advice": "வெப்ப ஈரப்பதத்தில் இலை/பழங்களில் கரும்புள்ளிகள். தலைமேல் நீர் தவிர்த்து, கிளைகளை ஒழுங்குபடுத்தி, ஆரம்பத்தில் செம்பு தெளிக்கவும்.",
+        "next": "கடையில் செம்பு அளவை உறுதி செய்யவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride + Streptocycline",
+            "dose": "600 g + 20 g per spray tank",
+            "when": "பிங்க் பட் இல்; காங்கர் க்கு ஜூலை-ஆகஸ்ட் மீண்டும்",
+            "phi": "HP அட்டவணை படி",
+            "note": "HP கல்-பழ தெளிப்பு அட்டவணை 2022; தொட்டி அளவு தரவில் இல்லை",
+            "source": "Directorate of Agriculture, Govt of Himachal Pradesh - Stone fruit spray schedule",
+            "source_url": "https://eudyan.hp.gov.in/UploadedFiles/sprayshedule/new-spray-schedules-for-stone-fruits.pdf",
+            "verify": true
+          },
+          {
+            "type": "chemical",
+            "name": "Streptocycline 0.01% + Copper oxychloride 0.2%",
+            "dose": "Streptocycline 0.01% + COC 0.2%",
+            "when": "துவக்கத்தில் தெளிக்க; காங்கர் மீது பூச்சு",
+            "note": "பீச்/பிளம் நோய்க்கு ICAR Indian Horticulture; காங்கரில் போர்டோ பூச்சு",
+            "source": "ICAR - Indian Horticulture",
+            "source_url": "http://epubs.icar.org.in/ejournal/index.php/IndHort/article/view/90372",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Dormant copper, resistant cultivars, orchard hygiene",
+            "when": "செயலற்ற காலம் முதல் துவக்க வசந்தம்",
+            "note": "வறண்ட மண்ணில் கத்தரி; நோய் கிளைகள் நீக்கு",
+            "source": "WVU Extension (non-India corroboration)",
+            "source_url": "https://extension.wvu.edu/lawn-gardening-pests/plant-disease/tree-fruit-disease/bacterial-spot",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "peach_healthy": {
+      "en": {
+        "name": "Peach leaf (healthy)",
+        "advice": "No signs of peach leaf curl. Prune to open the centre and apply a dormant copper spray if curl was a problem last season.",
+        "next": "Monitor weekly, especially the flush of new leaves.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "आड़ू की पत्ती (स्वस्थ)",
+        "advice": "लीफ कर्ल के कोई लक्षण नहीं। बीच की छँटाई करें; पिछले साल कर्ल हुआ हो तो सुप्त अवस्था में कॉपर स्प्रे करें।",
+        "next": "नई पत्तियों पर साप्ताहिक नज़र रखें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "பீச் இலை (ஆரோக்கியமானது)",
+        "advice": "இலை சுருள் இல்லை. நடுவை கத்தரித்து, கடந்த பருவத்தில் சுருள் இருந்தால் பருவ இறுதியில் செம்பு தெளிக்கவும்.",
+        "next": "புதிய இலைகளை வாரந்தோறும் கவனிக்கவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "potato_healthy": {
+      "en": {
+        "name": "Potato leaf (healthy)",
+        "advice": "No disease signs detected. Maintain proper spacing, balanced fertiliser, and regular checks for blight symptoms.",
+        "next": "Keep monitoring weekly; early detection protects your crop.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "आलू की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं मिला। उचित दूरी, संतुलित खाद और ब्लाइट लक्षणों की नियमित जाँच बनाए रखें।",
+        "next": "साप्ताहिक निगरानी करते रहें; जल्दी पहचान से फसल सुरक्षित रहती है।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "உருளைக்கிழங்கு இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. இடைவெளி, சீரான உரம், கருகல் அறிகுறி கண்காணிப்பு தொடரவும்.",
+        "next": "வாரந்தோறும் கண்காணிக்கவும்; முன்கூட்டியே கண்டறிவது பயிரை காக்கும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "potato_early_blight": {
+      "en": {
+        "name": "Potato early blight",
+        "advice": "Early blight favours warm, humid spells and stressed plants. Maintain balanced nutrition and irrigation, remove affected lower leaves, and apply a protectant fungicide when lesions spread.",
+        "next": "Take this result to your agri-input dealer for an early-blight fungicide, or call Kisan Call Centre 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant/tolerant varieties",
+            "when": "At planting (variety selection)",
+            "note": "Kufri Badshah, Kufri Jeevan, Kufri Khyaati, Kufri Chamatkar (NIPHM list)",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove crop debris and volunteer plants",
+            "when": "During and after growing season",
+            "note": "Avoids soil-borne inoculum build-up",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L water",
+            "when": "Spray at 45, 60 and 75 days after planting",
+            "phi": "per label",
+            "note": "TNAU schedule for early and late blight",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Chlorothalonil 75% WP",
+            "dose": "2 g/L water",
+            "when": "Spray at 45, 60 and 75 days after planting",
+            "phi": "per label",
+            "note": "TNAU alternative to mancozeb",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "आलू का अगेती झुलसा",
+        "advice": "अगेती झुलसा गर्म नम मौसम और कमज़ोर पौधों पर बढ़ता है। संतुलित पोषण व सिंचाई रखें, प्रभावित निचली पत्तियाँ हटाएँ, धब्बे फैलने पर रक्षक फफूंदनाशक लगाएँ।",
+        "next": "अगेती झुलसा फफूंदनाशक के लिए नज़दीकी कृषि इनपुट दुकान पर यह परिणाम दिखाएँ, या किसान कॉल सेंटर 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant/tolerant varieties",
+            "when": "बुवाई के समय (किस्म चुनाव)",
+            "note": "कुफ़री बादशाह, जीवन, ख्याति, चमत्कार (NIPHM सूची)",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove crop debris and volunteer plants",
+            "when": "मौसम के दौरान और बाद",
+            "note": "खेत अवशेष व स्वयंसेवी पौधे हटाकर मिट्टी में रोग जमा न होने दें",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L water",
+            "when": "रोपाई के 45, 60, 75 दिन पर छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "अगेती/पछेती झुलसा के लिए TNAU की अनुसूची",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Chlorothalonil 75% WP",
+            "dose": "2 g/L water",
+            "when": "रोपाई के 45, 60, 75 दिन पर छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "मैन्कोज़ेब का TNAU विकल्प",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "உருளைக்கிழங்கு ஏர்லி பிளைட்",
+        "advice": "சூடான ஈரம் மற்றும் பலவீனமான செடிகளில் பரவுகிறது. சீரான ஊட்டச்சத்தும் நீரும், பாதித்த இலைகள் நீக்கம், புள்ளிகள் பரவும்போது மருந்து பயன்படுத்தவும்.",
+        "next": "ஏர்லி பிளைட் மருந்துக்கு அருகிலுள்ள வேளாண் உள்ளீடு கடையில் இம்முடிவைக் காட்டவும் அல்லது விவசாயி கால் சென்டர் 1800-180-1551 ஐ அழைக்கவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Resistant/tolerant varieties",
+            "when": "நடவு நேரத்தில் (இரகத் தேர்வு)",
+            "note": "குஃப்ரி பாத்ஷா, ஜீவன், க்யாதி, சமத்கர் (NIPHM பட்டியல்)",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove crop debris and volunteer plants",
+            "when": "பருவத்தின் போதும் பின்னரும்",
+            "note": "வயல் குப்பை, தன்னார்வ செடிகள் நீக்கி மண்ணில் நோய் சேர்க்காமல்",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L water",
+            "when": "நடவு 45, 60, 75 நாட்களில் தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "ஆரம்ப/தாமத ப்ளைட்டுக்கு TNAU அட்டவணை",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Chlorothalonil 75% WP",
+            "dose": "2 g/L water",
+            "when": "நடவு 45, 60, 75 நாட்களில் தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "மேன்கோசெப்புக்கு TNAU மாற்று",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "potato_late_blight": {
+      "en": {
+        "name": "Potato late blight",
+        "advice": "A fast, serious disease in cool wet weather. Destroy affected foliage/plants immediately, keep tubers dry, and spray a labeled contact/systemic fungicide on a tight schedule.",
+        "next": "Act today - show this at your dealer or call your Agriculture Department helpline 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Late-blight resistant varieties",
+            "when": "At planting",
+            "note": "Kufri Jyothi, Kufri Malar, Kufri Thangam (TNAU); Kufri Girdhari highly resistant",
+            "source": "TNAU Agritech Portal + NIPHM",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Clean seed and remove infection sources",
+            "when": "Throughout season",
+            "note": "Use disease-free tubers; destroy cull piles and ground creepers",
+            "source": "TNAU + NIPHM",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L; or 600-800 g in 300 L water/ac",
+            "when": "Spray at 45, 60 and 75 days after planting",
+            "phi": "per label",
+            "note": "TNAU protectant schedule",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Metalaxyl-M 4% + Mancozeb 64% WP",
+            "dose": "0.25% (1 kg/ac in 200-400 L)",
+            "when": "At disease appearance; repeat second spray after 24 days",
+            "phi": "per label",
+            "note": "Systemic + contact for curative control",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Cymoxanil 8% + Mancozeb 64% WP",
+            "dose": "600-800 g in 200-300 L water/ac",
+            "when": "At disease appearance; repeat after 10 days",
+            "phi": "per label",
+            "note": "Use when metalaxyl resistance is suspected",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "आलू लेट ब्लाइट",
+        "advice": "ठंडे-नम मौसम का गंभीर रोग। प्रभावित पत्ते/पौधे तुरंत नष्ट करें, कंद सूखे रखें और समय-सारणी पर संपर्क/प्रणालीगत फफूंदनाशक छिड़कें।",
+        "next": "आज ही कार्य करें - दुकान पर दिखाएँ या कृषि विभाग 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Late-blight resistant varieties",
+            "when": "बुवाई के समय",
+            "note": "कुफ़री ज्योति, मलार, थंगम (TNAU); कुफ़री गिरधारी अत्यधिक प्रतिरोधी",
+            "source": "TNAU Agritech Portal + NIPHM",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Clean seed and remove infection sources",
+            "when": "पूरे मौसम में",
+            "note": "रोग-मुक्त कंद लगाएँ; कल्ले के ढेर व ज़मीनी पलकें नष्ट करें",
+            "source": "TNAU + NIPHM",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L; or 600-800 g in 300 L water/ac",
+            "when": "रोपाई के 45, 60, 75 दिन पर छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU की बचाव अनुसूची",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Metalaxyl-M 4% + Mancozeb 64% WP",
+            "dose": "0.25% (1 kg/ac in 200-400 L)",
+            "when": "रोग दिखते ही; 24 दिन बाद दूसरा छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "उपचार के लिए सिस्टमिक + संपर्क दवा",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Cymoxanil 8% + Mancozeb 64% WP",
+            "dose": "600-800 g in 200-300 L water/ac",
+            "when": "रोग दिखते ही; 10 दिन बाद दोहराएँ",
+            "phi": "लेबल के अनुसार",
+            "note": "मेटालैक्सिल प्रतिरोध का संदेह हो तो उपयोग करें",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "உருளைக்கிழங்கு நேரடி கருகல்",
+        "advice": "குளிர் ஈரப்பதத்தில் வேகமான தீவிர நோய். தாக்கப்பட்ட செடிகளை உடனே அகற்றி, கிழங்குகளை உலர வைத்து, மருந்தை குறித்த நேரத்தில் தெளிக்கவும்.",
+        "next": "இன்றே செயல்படுங்கள் - கடையில் காட்டவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Late-blight resistant varieties",
+            "when": "நடவு நேரத்தில்",
+            "note": "குஃப்ரி ஜோதி, மலார், தங்கம் (TNAU); குஃப்ரி கிர்தாரி மிக எதிர்ப்பு",
+            "source": "TNAU Agritech Portal + NIPHM",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Clean seed and remove infection sources",
+            "when": "முழு பருவத்திலும்",
+            "note": "நோயற்ற கிழங்கு; கழிவு மேடுகள், தரைப் படரி அழிக்க",
+            "source": "TNAU + NIPHM",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L; or 600-800 g in 300 L water/ac",
+            "when": "நடவு 45, 60, 75 நாட்களில் தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "TNAU தடுப்பு அட்டவணை",
+            "source": "TNAU Agritech Portal - Potato",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_potato.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Metalaxyl-M 4% + Mancozeb 64% WP",
+            "dose": "0.25% (1 kg/ac in 200-400 L)",
+            "when": "நோய் தோன்றியதும்; 24 நாட்களில் இரண்டாம் தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "சிகிச்சைக்கு சிஸ்டமிக் + தொடு மருந்து",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Cymoxanil 8% + Mancozeb 64% WP",
+            "dose": "600-800 g in 200-300 L water/ac",
+            "when": "நோய் தோன்றியதும்; 10 நாட்களில் மீண்டும்",
+            "phi": "லேபிள் படி",
+            "note": "மெட்டாலாக்சில் எதிர்ப்பு சந்தேகமானால்",
+            "source": "NIPHM AICRP - IPM in Potato",
+            "source_url": "http://www.niphm.gov.in/IPMPackages/Potato.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "raspberry_healthy": {
+      "en": {
+        "name": "Raspberry leaf (healthy)",
+        "advice": "No disease symptoms. Keep rows ventilated and remove old canes after fruiting to reduce future disease pressure.",
+        "next": "Monitor weekly during the growing season.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "रसभरी की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं। पंक्तियों में हवा बनाए रखें और फलन के बाद पुराने तने हटाएँ।",
+        "next": "मौसम में साप्ताहिक निगरानी करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "ராஸ்பெர்ரி இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. வரிசைகளில் காற்றோட்டம் வைத்து, பழத்திற்குப் பின் பழைய கொடிகளை அகற்றவும்.",
+        "next": "பருவத்தில் வாராந்திர கண்காணிப்பு.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "soybean_healthy": {
+      "en": {
+        "name": "Soybean leaf (healthy)",
+        "advice": "No disease signs. Follow regional sowing dates and rotate soybean to keep soil-borne diseases low.",
+        "next": "Routine weekly scouting around flowering helps early detection.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "सोयाबीन की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं। क्षेत्रीय बुवाई समय अपनाएँ और मृदा-जनित रोगों के लिए फसल चक्र करें।",
+        "next": "फूल आने के समय साप्ताहिक निरीक्षण से जल्दी पहचान होती है।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "சோயா இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. பரிந்துரை நேரத்தில் விதைத்து, மண் நோய்களுக்கு பயிர் சுழற்சி செய்யவும்.",
+        "next": "பூக்கும் காலத்தில் வாராந்திர கண்காணிப்பு பயனுள்ளது.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "squash_powdery_mildew": {
+      "en": {
+        "name": "Squash powdery mildew",
+        "advice": "Powdery mildew thrives in dry days + humid nights. Improve airflow, avoid overhead irrigation, and apply a sulfur/neem-based spray early.",
+        "next": "Get a mildew-rated spray at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Dinocap / Carbendazim / Tridemorph (bottle gourd)",
+            "dose": "Dinocap 1 ml/L, or Carbendazim 0.5 g/L, or Tridemorph 1 ml/L",
+            "when": "At first white spots; repeat at 10-day interval",
+            "phi": "per label",
+            "note": "TNAU bottle-gourd recommendation; do not use copper/sulphur dust on cucurbits (phytotoxic)",
+            "source": "TNAU Agritech Portal - Bottle gourd",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_bottlegourd.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Hexaconazole 5 EC",
+            "dose": "0.05%",
+            "when": "At first symptoms; 2-3 sprays at 10-15 day intervals",
+            "phi": "per label",
+            "note": "Field trial: 77.5% control, best of 11 fungicides",
+            "source": "ICAR trial (KrishiKosh thesis)",
+            "source_url": "https://krishikosh.egranth.ac.in/server/api/core/bitstreams/710b8dcb-20c7-4146-8245-b45626080763/content",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Resistant genotypes + field sanitation",
+            "when": "At planting; all season",
+            "note": "IARI-resistant genotypes EC800996, EC800998, IC337078; remove debris",
+            "source": "ICAR-IARI (Indian J. Agric. Sci., 2025)",
+            "source_url": "https://epubs.icar.org.in/index.php/IJAgS/article/view/155432",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "लौकी चूर्णिल आसिता (पाउडरी मिल्ड्यू)",
+        "advice": "सूखे दिन + नम रात में सफेद फुंदी बढ़ती है। हवा बढ़ाएँ, ऊपर से सिंचाई से बचें और सल्फर/नीम स्प्रे शुरुआत में ही करें।",
+        "next": "दुकान पर मिल्ड्यू-रेटेड स्प्रे लें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Dinocap / Carbendazim / Tridemorph (bottle gourd)",
+            "dose": "Dinocap 1 ml/L, or Carbendazim 0.5 g/L, or Tridemorph 1 ml/L",
+            "when": "पहले सफ़ेद धब्बे पर; 10 दिन बाद दोहराएँ",
+            "phi": "लेबल के अनुसार",
+            "note": "कद्दूवर्गीय पर कॉपर/सल्फर धूल न डालें (विषाक्त); TNAU लौकी की सलाह",
+            "source": "TNAU Agritech Portal - Bottle gourd",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_bottlegourd.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Hexaconazole 5 EC",
+            "dose": "0.05%",
+            "when": "पहले लक्षण पर; 10-15 दिन के अंतराल पर 2-3 छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "11 फफूंदनाशकों के परीक्षण में सर्वश्रेष्ठ 77.5% नियंत्रण (ICAR)",
+            "source": "ICAR trial (KrishiKosh thesis)",
+            "source_url": "https://krishikosh.egranth.ac.in/server/api/core/bitstreams/710b8dcb-20c7-4146-8245-b45626080763/content",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Resistant genotypes + field sanitation",
+            "when": "बुवाई पर; पूरे मौसम",
+            "note": "IARI प्रतिरोधी EC800996, EC800998, IC337078; खेत अवशेष हटाएँ",
+            "source": "ICAR-IARI (Indian J. Agric. Sci., 2025)",
+            "source_url": "https://epubs.icar.org.in/index.php/IJAgS/article/view/155432",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "சுரைக்காய் வெள்ளைப் பூஞ்சை",
+        "advice": "வறண்ட பகல் + ஈரமான இரவில் வளரும். காற்றோட்டம் அதிகரித்து, தலைமேல் நீர் தவிர்த்து, கந்தகம்/வேம்பு தெளிக்கவும்.",
+        "next": "கடையில் பூஞ்சை மருந்து வாங்கவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Dinocap / Carbendazim / Tridemorph (bottle gourd)",
+            "dose": "Dinocap 1 ml/L, or Carbendazim 0.5 g/L, or Tridemorph 1 ml/L",
+            "when": "முதல் வெள்ளைப் புள்ளியில்; 10 நாளில் மீண்டும்",
+            "phi": "லேபிள் படி",
+            "note": "சுரைக்காய் குடும்பத்தில் செப்பு/சல்பர் தூள் வேண்டாம் (நச்சு); TNAU சுரை பரிந்துரை",
+            "source": "TNAU Agritech Portal - Bottle gourd",
+            "source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_bottlegourd.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Hexaconazole 5 EC",
+            "dose": "0.05%",
+            "when": "முதல் அறிகுறியில்; 10-15 நாள் இடைவெளியில் 2-3 தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "11 மருந்துகளில் சிறந்த 77.5% கட்டுப்பாடு (ICAR)",
+            "source": "ICAR trial (KrishiKosh thesis)",
+            "source_url": "https://krishikosh.egranth.ac.in/server/api/core/bitstreams/710b8dcb-20c7-4146-8245-b45626080763/content",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Resistant genotypes + field sanitation",
+            "when": "நடவு; முழு பருவம்",
+            "note": "IARI எதிர்ப்பு EC800996, EC800998, IC337078; வயல் குப்பை நீக்கு",
+            "source": "ICAR-IARI (Indian J. Agric. Sci., 2025)",
+            "source_url": "https://epubs.icar.org.in/index.php/IJAgS/article/view/155432",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "strawberry_healthy": {
+      "en": {
+        "name": "Strawberry leaf (healthy)",
+        "advice": "No disease signs. Keep rows straw-mulched to stop soil splash and maintain air flow between plants.",
+        "next": "Weekly checks keep leaf spots in check.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "स्ट्रॉबेरी की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं। मिट्टी के छींटे रोकने के लिए मल्च बिछाएँ और पौधों के बीच हवा बनाए रखें।",
+        "next": "साप्ताहिक जाँच से धब्बे नियंत्रित रहते हैं।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "ஸ்ட்ராபெர்ரி இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. மண் தெறிப்பு தடுக்க தழை பரப்பி, செடிகளுக்கு இடையே காற்றோட்டம் வைக்கவும்.",
+        "next": "வாரந்தோறும் சரிபார்த்தல் புள்ளிகளைக் கட்டுப்படுத்தும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "strawberry_leaf_scorch": {
+      "en": {
+        "name": "Strawberry leaf scorch",
+        "advice": "Purple-bordered spots from humid weather. Remove infected leaves, thin the stand for airflow, and apply a labeled fungicide if spreading.",
+        "next": "Confirm a scorch-rated spray at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Carbendazim / thiophanate-methyl",
+            "dose": "Carbendazim 0.5 g/L or bayleton 2 ml/L",
+            "when": "2-3 sprays at 21-day intervals during rainy/leaf-disease season",
+            "phi": "per label",
+            "note": "Meghalaya State PoP; NHB lists carbendazim/thiophanate-methyl for strawberry leaf diseases",
+            "source": "Meghalaya Agriculture - PoP Strawberry; NHB",
+            "source_url": "https://megagriculture.gov.in/public/package_of_practice_strawberry.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiophanate-methyl (scorch timing)",
+            "dose": "per label",
+            "when": "From bloom; repeat ~2-week intervals under wet conditions",
+            "phi": "1 day before harvest",
+            "note": "Scorch-specific timing from UC IPM/PNW (non-India; for India registration)",
+            "source": "UC IPM - Leaf Scorch of Strawberries",
+            "source_url": "https://ipm.ucanr.edu/home-and-landscape/leaf-scorch-of-strawberries/",
+            "verify": true
+          },
+          {
+            "type": "cultural",
+            "name": "Remove old foliage, resistant cultivars, drip irrigation",
+            "when": "At renovation / after harvest",
+            "note": "Fungus persists on perennial plants",
+            "source": "NC State Extension - Leaf Scorch of Strawberry",
+            "source_url": "https://content.ces.ncsu.edu/leaf-scorch-of-strawberry",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "स्ट्रॉबेरी लीफ स्कॉर्च",
+        "advice": "नम मौसम में बैंगनी किनारे वाले धब्बे। रोगी पत्तियाँ हटाएँ, हवा के लिए पौधे पतले करें और फैलने पर अनुशंसित फफूंदनाशक लगाएँ।",
+        "next": "दुकान पर स्कॉर्च-रेटेड स्प्रे की पुष्टि करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Carbendazim / thiophanate-methyl",
+            "dose": "Carbendazim 0.5 g/L or bayleton 2 ml/L",
+            "when": "बरसात/पत्ती-रोग मौसम में हर 21 दिन पर 2-3 छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "मेघालय राज्य PoP; NHB में कार्बेन्डाज़िम/थायोफैनेट-मिथाइल सूचीबद्ध",
+            "source": "Meghalaya Agriculture - PoP Strawberry; NHB",
+            "source_url": "https://megagriculture.gov.in/public/package_of_practice_strawberry.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiophanate-methyl (scorch timing)",
+            "dose": "per label",
+            "when": "पुष्पन से; गीली स्थिति में ~2 सप्ताह के अंतराल पर",
+            "phi": "1 दिन कटाई से पहले",
+            "note": "UC IPM/PNW का स्कॉर्च समय (भारतीय पंजीकरण पक्का करें)",
+            "source": "UC IPM - Leaf Scorch of Strawberries",
+            "source_url": "https://ipm.ucanr.edu/home-and-landscape/leaf-scorch-of-strawberries/",
+            "verify": true
+          },
+          {
+            "type": "cultural",
+            "name": "Remove old foliage, resistant cultivars, drip irrigation",
+            "when": "पुनर्स्थापन/कटाई के बाद",
+            "note": "पुरानी पत्तियाँ हटाएँ, प्रतिरोधी किस्में, ड्रिप सिंचाई; कवक बारहमासी पौधे पर रहता है",
+            "source": "NC State Extension - Leaf Scorch of Strawberry",
+            "source_url": "https://content.ces.ncsu.edu/leaf-scorch-of-strawberry",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "ஸ்ட்ராபெர்ரி இலை சூடு",
+        "advice": "ஈரப்பதத்தில் ஊதா விளிம்பு புள்ளிகள். நோய் இலைகளை அகற்றி, காற்றோட்டம் வைத்து, பரவினால் பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் மருந்தை உறுதி செய்யவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Carbendazim / thiophanate-methyl",
+            "dose": "Carbendazim 0.5 g/L or bayleton 2 ml/L",
+            "when": "மழை/இலை-நோய் பருவத்தில் 21 நாளுக்கு 2-3 தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "மேகாலயா மாநில PoP; NHB இல் கார்பென்டாசிம்/தியோஃபனேட் பட்டியல்",
+            "source": "Meghalaya Agriculture - PoP Strawberry; NHB",
+            "source_url": "https://megagriculture.gov.in/public/package_of_practice_strawberry.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiophanate-methyl (scorch timing)",
+            "dose": "per label",
+            "when": "பூ முதல்; ஈர நிலையில் ~2 வார இடைவெளி",
+            "phi": "1 நாள் அறுவடைக்கு முன்",
+            "note": "UC IPM/PNW ஸ்கோர்ச் நேரம் (இந்திய பதிவு உறுதி)",
+            "source": "UC IPM - Leaf Scorch of Strawberries",
+            "source_url": "https://ipm.ucanr.edu/home-and-landscape/leaf-scorch-of-strawberries/",
+            "verify": true
+          },
+          {
+            "type": "cultural",
+            "name": "Remove old foliage, resistant cultivars, drip irrigation",
+            "when": "புதுப்பிப்பு/அறுவடைக்குப் பின்",
+            "note": "பழைய இலைகள் நீக்கு, தடுப்பு இரகங்கள், டிரிப்; காளான் பல்லாண்டு செடியில்",
+            "source": "NC State Extension - Leaf Scorch of Strawberry",
+            "source_url": "https://content.ces.ncsu.edu/leaf-scorch-of-strawberry",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_early_blight": {
+      "en": {
+        "name": "Tomato early blight",
+        "advice": "Early blight strikes stressed plants in warm weather. Mulch to stop soil splash, rotate tomatoes, and spray a labeled fungicide when spots appear.",
+        "next": "Show this result at your dealer for the right spray, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Iprodione 50% WP",
+            "dose": "600 g/ac",
+            "when": "Spray at 10-15 day intervals on disease appearance",
+            "phi": "15 days",
+            "note": "TNAU recommendation",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 35% SC",
+            "dose": "1 kg/ac",
+            "when": "Spray on disease appearance, repeat as needed",
+            "phi": "5-6 days",
+            "note": "TNAU; PHI per mancozeb registration",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Azoxystrobin 23% SC",
+            "dose": "200 ml/ac",
+            "when": "Spray on disease appearance",
+            "phi": "per label",
+            "note": "TNAU recommendation",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Seed treatment with Trichoderma asperellum",
+            "dose": "4 g/kg seed",
+            "when": "Before sowing",
+            "note": "TNAU IDM component",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Crop rotation and debris removal",
+            "when": "Seasonal",
+            "note": "TNAU IDM component",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर अर्ली ब्लाइट",
+        "advice": "गर्म मौसम में तनावग्रस्त पौधों पर होता है। मल्च से मिट्टी छींटे रोकें, टमाटर चक्र करें और धब्बे दिखते ही फफूंदनाशक लगाएँ।",
+        "next": "स्प्रे के लिए दुकान पर परिणाम दिखाएँ या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Iprodione 50% WP",
+            "dose": "600 g/ac",
+            "when": "रोग दिखते ही हर 10-15 दिन पर छिड़काव करें",
+            "phi": "15 दिन",
+            "note": "TNAU की सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 35% SC",
+            "dose": "1 kg/ac",
+            "when": "रोग दिखते ही छिड़कें; ज़रूरत पड़े तो दोहराएँ",
+            "phi": "5-6 दिन",
+            "note": "TNAU की सलाह; मैन्कोज़ेब के पंजीकरण के हिसाब से कटाई-पूर्व अवधि",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Azoxystrobin 23% SC",
+            "dose": "200 ml/ac",
+            "when": "रोग दिखते ही छिड़काव करें",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU की सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Seed treatment with Trichoderma asperellum",
+            "dose": "4 g/kg seed",
+            "when": "बुवाई से पहले",
+            "note": "बीज उपचार - TNAU की समेकित रोग प्रबंधन (IDM) सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Crop rotation and debris removal",
+            "when": "पूरे मौसम में",
+            "note": "फसल चक्र व अवशेष हटाना - TNAU की IDM सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி முன் கருகல்",
+        "advice": "வெப்பத்தில் தளர்ந்த செடிகளை தாக்கும். தழை உரம் பரப்பி, சுழற்சி செய்து, புள்ளி வந்தவுடன் பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் முடிவைக் காட்டி மருந்து வாங்கவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Iprodione 50% WP",
+            "dose": "600 g/ac",
+            "when": "நோய் தோன்றியதும் ஒவ்வொரு 10-15 நாட்களுக்கும் தெளிக்கவும்",
+            "phi": "15 நாட்கள்",
+            "note": "TNAU பரிந்துரை",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 35% SC",
+            "dose": "1 kg/ac",
+            "when": "நோய் தோன்றியதும் தெளிக்க; தேவைப்பட்டால் மீண்டும்",
+            "phi": "5-6 நாட்கள்",
+            "note": "TNAU பரிந்துரை; மேன்கோசெப் பதிவேட்டின்படி அறுவடை இடைவெளி",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Azoxystrobin 23% SC",
+            "dose": "200 ml/ac",
+            "when": "நோய் தோன்றியதும் தெளிக்கவும்",
+            "phi": "லேபிள் படி",
+            "note": "TNAU பரிந்துரை",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Seed treatment with Trichoderma asperellum",
+            "dose": "4 g/kg seed",
+            "when": "விதைப்புக்கு முன்",
+            "note": "விதை நேர்த்தி - TNAU ஒருங்கிணைந்த நோய் மேலாண்மை (IDM)",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Crop rotation and debris removal",
+            "when": "முழு பருவத்திலும்",
+            "note": "பயிர் சுழற்சி மற்றும் குப்பை அகற்றல் - TNAU IDM",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_septoria_leaf_spot": {
+      "en": {
+        "name": "Tomato Septoria leaf spot",
+        "advice": "Spreads upwards in wet weather. Remove infected lower leaves, avoid overhead watering, and apply a copper-based spray at first signs.",
+        "next": "Confirm spray dose at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L (0.2%)",
+            "when": "2 foliar sprays starting ~20 days after disease onset",
+            "phi": "5-6 days",
+            "note": "Followed by carbendazim 0.5 g/L",
+            "source": "ICAR IJCMAS / SKUAST-Jammu tomato bulletin",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 50% WP",
+            "dose": "0.5 g/L (0.05%)",
+            "when": "Alternate spray after mancozeb sprays",
+            "phi": "per label",
+            "source": "ICAR IJCMAS / SKUAST-Jammu tomato bulletin",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove basal infected leaves, stake, straw mulch",
+            "when": "Throughout season",
+            "note": "Best control when combined with sprays",
+            "source": "ICAR IJCMAS trial",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर सेप्टोरिया पत्ती धब्बा",
+        "advice": "नमी में ऊपर की ओर फैलता है। रोगी निचली पत्तियाँ हटाएँ, ऊपर से पानी न दें और पहले संकेत पर कॉपर स्प्रे करें।",
+        "next": "दुकान पर मात्रा पुष्टि करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L (0.2%)",
+            "when": "रोग शुरू होने के करीब 20 दिन बाद 2 पत्ती छिड़काव",
+            "phi": "5-6 दिन",
+            "note": "बाद में कार्बेन्डाज़िम 0.5 ग्राम/लीटर छिड़कें",
+            "source": "ICAR IJCMAS / SKUAST-Jammu tomato bulletin",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 50% WP",
+            "dose": "0.5 g/L (0.05%)",
+            "when": "मैन्कोज़ेब छिड़काव के बाद बदल-बदल कर छिड़कें",
+            "phi": "लेबल के अनुसार",
+            "source": "ICAR IJCMAS / SKUAST-Jammu tomato bulletin",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove basal infected leaves, stake, straw mulch",
+            "when": "पूरे मौसम में",
+            "note": "निचली रोगी पत्तियाँ हटाना, बाँस/मल्च के साथ छिड़काव सबसे असरदार",
+            "source": "ICAR IJCMAS trial",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி செப்டோரியா இலைப்புள்ளி",
+        "advice": "ஈரப்பதத்தில் மேல்நோக்கி பரவும். கீழ் இலைகளை அகற்றி, தலைமேல் நீர் தவிர்த்து, ஆரம்பத்தில் செம்பு தெளிக்கவும்.",
+        "next": "கடையில் அளவை உறுதி செய்யவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "2 g/L (0.2%)",
+            "when": "நோய் தொடங்கி ~20 நாட்களில் 2 இலை தெளிப்புகள்",
+            "phi": "5-6 நாட்கள்",
+            "note": "அதன்பின் கார்பென்டாசிம் 0.5 கிராம்/லிட்டர் தெளிக்க",
+            "source": "ICAR IJCMAS / SKUAST-Jammu tomato bulletin",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Carbendazim 50% WP",
+            "dose": "0.5 g/L (0.05%)",
+            "when": "மேன்கோசெப் தெளிப்புக்குப் பின் மாற்றி மாற்றி தெளிக்க",
+            "phi": "லேபிள் படி",
+            "source": "ICAR IJCMAS / SKUAST-Jammu tomato bulletin",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove basal infected leaves, stake, straw mulch",
+            "when": "முழு பருவத்திலும்",
+            "note": "கீழ் இலைகள் நீக்கம், பங்கு/தழை உடன் தெளிப்பு சிறந்தது",
+            "source": "ICAR IJCMAS trial",
+            "source_url": "https://www.ijcmas.com/6-8-2017/Ali%20Anwar,%20et%20al.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_healthy": {
+      "en": {
+        "name": "Tomato - healthy leaves",
+        "advice": "No disease signs were found on this tomato plant. Continue good air circulation and even watering.",
+        "next": "For routine crop advice, contact your local agriculture department.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर - स्वस्थ पत्तियाँ",
+        "advice": "इस टमाटर पर रोग के लक्षण नहीं मिले। अच्छे हवा प्रवाह और नियमित पानी बनाए रखें।",
+        "next": "सामान्य फसल सलाह के लिए स्थानीय कृषि विभाग से संपर्क करें।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி - ஆரோக்கியமான இலைகள்",
+        "advice": "இந்த தக்காளிச் செடியில் நோய் அறிகுறிகள் இல்லை. நல்ல காற்றோட்டம் மற்றும் சீரான நீர்ப்பாசனம் பராமரிக்கவும்.",
+        "next": "வழக்கமான பயிர் ஆலோசனைக்கு உள்ளூர் வேளாண் துறையை அணுகவும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "tomato_bacterial_spot": {
+      "en": {
+        "name": "Tomato bacterial spot",
+        "advice": "Wet leaves spread bacterial spot. Switch to drip irrigation, prune for airflow, and apply a copper/streptomycin-registered spray.",
+        "next": "Get a bactericide recommendation at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Streptocycline (streptomycin sulphate + tetracycline)",
+            "dose": "40-100 ppm (20 g/ac)",
+            "when": "Spray at first symptoms, repeat at 7-10 day intervals",
+            "phi": "per label",
+            "note": "TNAU recommendation",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride 50% WP",
+            "dose": "2-3 g/L",
+            "when": "Spray on disease appearance",
+            "phi": "per label",
+            "note": "ICAR-NCIPM recommendation",
+            "source": "ICAR-NCIPM",
+            "source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/125318",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Disease-free seed/seedlings, no overhead irrigation",
+            "when": "Planting to harvest",
+            "note": "Remove infected plants",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर जीवाणु धब्बा",
+        "advice": "गीली पत्तियों से जीवाणु धब्बा फैलता है। ड्रिप सिंचाई करें, हवा के लिए छँटाई करें और कॉपर/स्ट्रेप्टोमाइसिन स्प्रे करें।",
+        "next": "दुकान से जीवाणु-रोधी सुझाव लें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Streptocycline (streptomycin sulphate + tetracycline)",
+            "dose": "40-100 ppm (20 g/ac)",
+            "when": "पहले लक्षण पर छिड़कें, हर 7-10 दिन पर दोहराएँ",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU की सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride 50% WP",
+            "dose": "2-3 g/L",
+            "when": "रोग दिखते ही छिड़काव करें",
+            "phi": "लेबल के अनुसार",
+            "note": "ICAR-NCIPM की सलाह",
+            "source": "ICAR-NCIPM",
+            "source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/125318",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Disease-free seed/seedlings, no overhead irrigation",
+            "when": "रोपाई से लेकर कटाई तक",
+            "note": "रोग-मुक्त बीज/पौध और ऊपर से सिंचाई नहीं; रोगी पौधे हटाएँ",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி பாக்டீரியா புள்ளி",
+        "advice": "ஈர இலைகளில் பரவும். சொட்டு நீர்ப் பாசனம், காற்றோட்டம், செம்பு/ஸ்ட்ரெப்டோமைசின் தெளிக்கவும்.",
+        "next": "கடையில் பாக்டீரிசைடு பரிந்துரை பெறவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Streptocycline (streptomycin sulphate + tetracycline)",
+            "dose": "40-100 ppm (20 g/ac)",
+            "when": "முதல் அறிகுறியில் தெளிக்க, 7-10 நாட்களுக்கு ஒருமுறை",
+            "phi": "லேபிள் படி",
+            "note": "TNAU பரிந்துரை",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Copper oxychloride 50% WP",
+            "dose": "2-3 g/L",
+            "when": "நோய் தோன்றியதும் தெளிக்கவும்",
+            "phi": "லேபிள் படி",
+            "note": "ICAR-NCIPM பரிந்துரை",
+            "source": "ICAR-NCIPM",
+            "source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/125318",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Disease-free seed/seedlings, no overhead irrigation",
+            "when": "நடவு முதல் அறுவடை வரை",
+            "note": "நோயற்ற விதை/நாற்று, மேல் நீர்ப்பாசனம் இல்லை; நோய் செடிகள் அகற்று",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_late_blight": {
+      "en": {
+        "name": "Tomato late blight",
+        "advice": "Late blight explodes in cool, wet weather and can destroy the crop in days. Remove infected plants, improve airflow, and apply a protectant (metalaxyl/chlorothalonil) before weather turns wet.",
+        "next": "Show this result at your agri-input dealer for a late-blight fungicide, or call Kisan Call Centre 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Cyazofamid 34.5% SC",
+            "dose": "80 ml/ac",
+            "when": "Spray on disease appearance",
+            "phi": "per label",
+            "note": "TNAU recommendation",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 35% SC",
+            "dose": "1000 g/ac",
+            "when": "Spray on disease appearance",
+            "phi": "5-6 days",
+            "note": "TNAU; also 0.2% as KVK IDM prophylactic",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Metalaxyl + Mancozeb WP",
+            "dose": "0.2%",
+            "when": "Curative spray once symptoms appear",
+            "phi": "per label",
+            "note": "KVK IDM module; Fosetyl-Al 0.2% and Dimethomorph+Metiram also listed",
+            "source": "KVK IDM module",
+            "source_url": "https://www.phytojournal.com/archives/2018/vol7issue5/PartBE/7-5-539-950.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Drainage, rotation, destroy affected debris",
+            "when": "Seasonal",
+            "note": "TNAU IDM components",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर का पिछेती झुलसा",
+        "advice": "पिछेती झुलसा ठंडे नम मौसम में तेज़ी से पूरी फसल नष्ट कर सकता है। संक्रमित पौधे हटाएँ, हवा गुजरने दें, और मौसम नम होने से पहले अनुशंसित फफूंदनाशक लगाएँ।",
+        "next": "पिछेती झुलसा फफूंदनाशक के लिए नज़दीकी कृषि इनपुट दुकान पर यह परिणाम दिखाएँ, या किसान कॉल सेंटर 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Cyazofamid 34.5% SC",
+            "dose": "80 ml/ac",
+            "when": "रोग दिखते ही छिड़काव करें",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU की सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 35% SC",
+            "dose": "1000 g/ac",
+            "when": "रोग दिखते ही छिड़काव करें",
+            "phi": "5-6 दिन",
+            "note": "TNAU की सलाह; KVK के IDM में 0.2% बचाव छिड़काव भी",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Metalaxyl + Mancozeb WP",
+            "dose": "0.2%",
+            "when": "लक्षण दिखते ही उपचारात्मक छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "KVK IDM मॉड्यूल; फोसेटिल-एल 0.2% और डाइमेथोमॉर्फ+मेटिरैम भी",
+            "source": "KVK IDM module",
+            "source_url": "https://www.phytojournal.com/archives/2018/vol7issue5/PartBE/7-5-539-950.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Drainage, rotation, destroy affected debris",
+            "when": "पूरे मौसम में",
+            "note": "जल निकासी, फसल चक्र, रोगी अवशेष नष्ट करें - TNAU IDM",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி சீமை பூஞ்சை (லேட் பிளைட்)",
+        "advice": "குளிர்ந்த ஈரமான காலநிலையில் வேகமாகப் பரவி பயிரை அழிக்கும். பாதித்த செடிகளை அகற்றி, காற்றோட்டம் மேம்படுத்தி, பரிந்துரைக்கப்பட்ட மருந்தை முன்கூட்டியே பயன்படுத்தவும்.",
+        "next": "லேட் பிளைட் மருந்துக்கு அருகிலுள்ள வேளாண் உள்ளீடு கடையில் இம்முடிவைக் காட்டவும் அல்லது விவசாயி கால் சென்டர் 1800-180-1551 ஐ அழைக்கவும்.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Cyazofamid 34.5% SC",
+            "dose": "80 ml/ac",
+            "when": "நோய் தோன்றியதும் தெளிக்கவும்",
+            "phi": "லேபிள் படி",
+            "note": "TNAU பரிந்துரை",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 35% SC",
+            "dose": "1000 g/ac",
+            "when": "நோய் தோன்றியதும் தெளிக்கவும்",
+            "phi": "5-6 நாட்கள்",
+            "note": "TNAU பரிந்துரை; KVK IDM இல் 0.2% தடுப்பு தெளிப்பு",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Metalaxyl + Mancozeb WP",
+            "dose": "0.2%",
+            "when": "அறிகுறி தோன்றியதும் சிகிச்சை தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "KVK IDM; ஃபோசெட்டில்-அல் 0.2%, டைமெத்தோமார்ப்+மெட்டிராம்",
+            "source": "KVK IDM module",
+            "source_url": "https://www.phytojournal.com/archives/2018/vol7issue5/PartBE/7-5-539-950.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Drainage, rotation, destroy affected debris",
+            "when": "முழு பருவத்திலும்",
+            "note": "வடிகால், பயிர் சுழற்சி, நோய் எச்சங்களை அழிக்கவும் - TNAU IDM",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_mosaic_virus": {
+      "en": {
+        "name": "Tomato mosaic virus",
+        "advice": "Virus spread by handling tools and aphids. Disinfect tools between plants, control aphids, and remove infected plants - no chemical cure exists.",
+        "next": "Plant certified virus-free seedlings next season; call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Trisodium phosphate (TSP) seed soak",
+            "dose": "90 g/L (9%)",
+            "when": "Seed treatment before sowing",
+            "note": "Inactivates seed-borne virus; NHB recommendation",
+            "source": "NHB Tomato PDF",
+            "source_url": "https://nhb.gov.in/pdf/vegetable/tomato/tom002.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Malathion 50% EC",
+            "dose": "2 ml/L",
+            "when": "Vector control spray (aphids)",
+            "phi": "per label",
+            "note": "SKUAST vector management; imidacloprid 0.3 ml/L also listed",
+            "source": "SKUAST-Jammu bulletin",
+            "source_url": "https://skuastjammu.ac.in/admin/admin/news/1568717042Bulletin%20on%20Tomato%20insect%20pests%20No.2.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rogue infected plants; resistant varieties; sanitize hands/tools",
+            "when": "Throughout season",
+            "note": "Mosaic viruses are mechanically (sap) transmitted",
+            "source": "NHB Tomato PDF",
+            "source_url": "https://nhb.gov.in/pdf/vegetable/tomato/tom002.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर मोज़ेक वायरस",
+        "advice": "औज़ारों और माहू से फैलता है। औज़ारों को सैनिटाइज़ करें, माहू नियंत्रित करें और रोगी पौधे हटाएँ - कोई रासायनिक इलाज नहीं।",
+        "next": "अगले मौसम प्रमाणित वायरस-मुक्त पौध लगाएँ; 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Trisodium phosphate (TSP) seed soak",
+            "dose": "90 g/L (9%)",
+            "when": "बुवाई से पहले बीज उपचार",
+            "note": "बीज-जनित वायरस नष्ट करता है; NHB की सलाह",
+            "source": "NHB Tomato PDF",
+            "source_url": "https://nhb.gov.in/pdf/vegetable/tomato/tom002.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Malathion 50% EC",
+            "dose": "2 ml/L",
+            "when": "एफिड (चेपा) रोकने के लिए छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "SKUAST की सलाह; इमिडाक्लोप्रिड 0.3 मिली/लीटर भी",
+            "source": "SKUAST-Jammu bulletin",
+            "source_url": "https://skuastjammu.ac.in/admin/admin/news/1568717042Bulletin%20on%20Tomato%20insect%20pests%20No.2.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rogue infected plants; resistant varieties; sanitize hands/tools",
+            "when": "पूरे मौसम में",
+            "note": "रोगी पौधे उखाड़ें, प्रतिरोधी किस्में, हाथ/औज़ार साफ़; मोज़ेक रस (छूत) से फैलता है",
+            "source": "NHB Tomato PDF",
+            "source_url": "https://nhb.gov.in/pdf/vegetable/tomato/tom002.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி மொசைக் வைரஸ்",
+        "advice": "கருவிகள்/அசுவினி மூலம் பரவும். கருவிகளை சுத்தம் செய்து, அசுவினியை கட்டுப்படுத்தி, நோய் செடிகளை அகற்றவும் - மருந்து இல்லை.",
+        "next": "அடுத்த பருவத்தில் சான்றளிக்கப்பட்ட நாற்றுகள்; 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Trisodium phosphate (TSP) seed soak",
+            "dose": "90 g/L (9%)",
+            "when": "விதைப்புக்கு முன் விதை நேர்த்தி",
+            "note": "விதை வைரஸை செயலிழக்கச் செய்யும்; NHB பரிந்துரை",
+            "source": "NHB Tomato PDF",
+            "source_url": "https://nhb.gov.in/pdf/vegetable/tomato/tom002.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Malathion 50% EC",
+            "dose": "2 ml/L",
+            "when": "அசுவிணி கட்டுப்பாட்டுக்கு தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "SKUAST பரிந்துரை; இமிடாகுளோபிரிட் 0.3 மி.லி/லிட்டரும்",
+            "source": "SKUAST-Jammu bulletin",
+            "source_url": "https://skuastjammu.ac.in/admin/admin/news/1568717042Bulletin%20on%20Tomato%20insect%20pests%20No.2.pdf",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rogue infected plants; resistant varieties; sanitize hands/tools",
+            "when": "முழு பருவத்திலும்",
+            "note": "நோய் செடிகளை பிடுங்கு, தடுப்பு இரகங்கள், கை/கருவி சுத்தம்; மொசைக் சாறு மூலம் பரவும்",
+            "source": "NHB Tomato PDF",
+            "source_url": "https://nhb.gov.in/pdf/vegetable/tomato/tom002.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_yellow_leaf_curl_virus": {
+      "en": {
+        "name": "Tomato yellow leaf curl virus",
+        "advice": "Spread by whiteflies. Control whiteflies with sticky traps/insecticide, remove infected plants, and use resistant varieties.",
+        "next": "Whitefly-proof netting and clean seedlings help; call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Imidacloprid 200 SL",
+            "dose": "0.3-0.4 ml/L",
+            "when": "Nursery + field sprays for whitefly vector",
+            "phi": "per label",
+            "note": "IIHR IPM recommendation",
+            "source": "IIHR IPM practices",
+            "source_url": "https://www.iihr.res.in/ipm-practices-tomato-pests",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiamethoxam 25% WG",
+            "dose": "0.3 g/L",
+            "when": "Whitefly vector control sprays",
+            "phi": "per label",
+            "note": "IIHR IPM recommendation",
+            "source": "IIHR IPM practices",
+            "source_url": "https://www.iihr.res.in/ipm-practices-tomato-pests",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "50-mesh nylon net nursery, maize border rows, remove infected plants",
+            "when": "Nursery and early field",
+            "note": "Excludes whiteflies; use resistant varieties",
+            "source": "ARTOAJ West Bengal IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर पीली पत्ती कर्ल वायरस",
+        "advice": "सफेद मक्खी से फैलता है। पीले चिपचिपे ट्रैप/कीटनाशक से सफेद मक्खी नियंत्रित करें, रोगी पौधे हटाएँ और प्रतिरोधी किस्म लगाएँ।",
+        "next": "नेटिंग और स्वच्छ पौध मदद करते हैं; 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Imidacloprid 200 SL",
+            "dose": "0.3-0.4 ml/L",
+            "when": "क्यारी + खेत में सफ़ेद मक्खी रोकने के छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "IIHR की IPM सलाह",
+            "source": "IIHR IPM practices",
+            "source_url": "https://www.iihr.res.in/ipm-practices-tomato-pests",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiamethoxam 25% WG",
+            "dose": "0.3 g/L",
+            "when": "सफ़ेद मक्खी रोकने के छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "IIHR की IPM सलाह",
+            "source": "IIHR IPM practices",
+            "source_url": "https://www.iihr.res.in/ipm-practices-tomato-pests",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "50-mesh nylon net nursery, maize border rows, remove infected plants",
+            "when": "क्यारी और शुरुआती खेत में",
+            "note": "50-मेश नायलॉन जाल, मकई की सीमा पंक्तियाँ, रोगी पौधे हटाएँ; प्रतिरोधी किस्में",
+            "source": "ARTOAJ West Bengal IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி மஞ்சள் இலை சுருள் வைரஸ்",
+        "advice": "வெண்ணிற ஈ மூலம் பரவும். ஒட்டு தகடு/மருந்தால் ஈயை கட்டுப்படுத்தி, நோய் செடிகளை அகற்றி, எதிர்ப்பு இரகம் பயன்படுத்தவும்.",
+        "next": "வலை அமைத்து சுத்த நாற்று - 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Imidacloprid 200 SL",
+            "dose": "0.3-0.4 ml/L",
+            "when": "நாற்றங்கால் + வயலில் வெள்ளை ஈ கட்டுப்பாடு",
+            "phi": "லேபிள் படி",
+            "note": "IIHR IPM பரிந்துரை",
+            "source": "IIHR IPM practices",
+            "source_url": "https://www.iihr.res.in/ipm-practices-tomato-pests",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Thiamethoxam 25% WG",
+            "dose": "0.3 g/L",
+            "when": "வெள்ளை ஈ கட்டுப்பாட்டு தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "IIHR IPM பரிந்துரை",
+            "source": "IIHR IPM practices",
+            "source_url": "https://www.iihr.res.in/ipm-practices-tomato-pests",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "50-mesh nylon net nursery, maize border rows, remove infected plants",
+            "when": "நாற்றங்கால் மற்றும் ஆரம்ப வயல்",
+            "note": "50-மெஷ் நைலான் வலை, சோள எல்லை வரிசை; நோய் செடிகளை அகற்று, தடுப்பு இரகங்கள்",
+            "source": "ARTOAJ West Bengal IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_leaf_mold": {
+      "en": {
+        "name": "Tomato leaf mold",
+        "advice": "Leaf mold grows in crowded, humid tunnels/greenhouses. Improve ventilation, avoid overhead watering at evening, and apply a protectant fungicide on lower leaves.",
+        "next": "Ask your agri-input dealer for a leaf-mold fungicide, or call Kisan Call Centre 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "0.2% (2.0 g/L)",
+            "when": "7-day interval sprays from transplanting",
+            "phi": "5-6 days",
+            "note": "field evidence from a non-India trial; confirm a CIB&RC-registered leaf-mold label before use",
+            "source": "Thai Agricultural Research Journal",
+            "source_url": "https://li01.tci-thaijo.org/index.php/thaiagriculturalresearch/article/view/245661",
+            "verify": true
+          },
+          {
+            "type": "cultural",
+            "name": "Keep humidity below 85%: ventilation, spacing, prune basal leaves",
+            "when": "Throughout season",
+            "note": "Primary control; remove/burn infected leaves; use resistant cultivars",
+            "source": "University extension (UMN)",
+            "source_url": "https://extension.umn.edu/disease-management/tomato-leaf-mold",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर का पत्ती फफूंद (लीफ मोल्ड)",
+        "advice": "यह रोग घने, अधिक नमी वाले पौधों में बढ़ता है। हवा निकासी सुधारें, शाम को छिड़काव न करें, और निचली पत्तियों पर रक्षक फफूंदनाशक लगाएँ।",
+        "next": "लीफ मोल्ड फफूंदनाशक के लिए नज़दीकी कृषि इनपुट दुकान पर पूछें, या किसान कॉल सेंटर 1800-180-1551 पर कॉल करें।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "0.2% (2.0 g/L)",
+            "when": "रोपाई के बाद हर 7 दिन पर छिड़काव",
+            "phi": "5-6 दिन",
+            "note": "स्थानीय पंजीकृत लेबल से मात्रा पक्की करें; यह भारत के बाहर के परीक्षण से है",
+            "source": "Thai Agricultural Research Journal",
+            "source_url": "https://li01.tci-thaijo.org/index.php/thaiagriculturalresearch/article/view/245661",
+            "verify": true
+          },
+          {
+            "type": "cultural",
+            "name": "Keep humidity below 85%: ventilation, spacing, prune basal leaves",
+            "when": "पूरे मौसम में",
+            "note": "नमी 85% से कम रखें (हवा, फासला); रोगी पत्तियाँ हटाएँ, प्रतिरोधी किस्में",
+            "source": "University extension (UMN)",
+            "source_url": "https://extension.umn.edu/disease-management/tomato-leaf-mold",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி இலை அச்சு நோய்",
+        "advice": "அடர்ந்த, ஈரமான இடங்களில் வளரும். காற்றோட்டம் மேம்படுத்தி, மாலையில் நீர் தெளிப்பு தவிர்த்து, கீழ் இலைகளில் பூஞ்சைக்கொல்லி பயன்படுத்தவும்.",
+        "next": "இலை அச்சு மருந்துக்கு அருகிலுள்ள வேளாண் உள்ளீடு கடையில் கேட்கவும் அல்லது விவசாயி கால் சென்டர் 1800-180-1551 ஐ அழைக்கவும்.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP",
+            "dose": "0.2% (2.0 g/L)",
+            "when": "நடவுக்குப் பின் ஒவ்வொரு 7 நாட்களுக்கும் தெளிப்பு",
+            "phi": "5-6 நாட்கள்",
+            "note": "உள்ளூர் பதிவு லேபிளில் அளவு உறுதிசெய்க; இந்தியாவுக்கு வெளியே சோதனை",
+            "source": "Thai Agricultural Research Journal",
+            "source_url": "https://li01.tci-thaijo.org/index.php/thaiagriculturalresearch/article/view/245661",
+            "verify": true
+          },
+          {
+            "type": "cultural",
+            "name": "Keep humidity below 85%: ventilation, spacing, prune basal leaves",
+            "when": "முழு பருவத்திலும்",
+            "note": "ஈரப்பதம் 85%க்கு கீழ் வை (காற்றோட்டம், இடைவெளி); நோய் இலைகள் நீக்கு, தடுப்பு இரகங்கள்",
+            "source": "University extension (UMN)",
+            "source_url": "https://extension.umn.edu/disease-management/tomato-leaf-mold",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_spider_mites": {
+      "en": {
+        "name": "Tomato spider mites",
+        "advice": "Tiny mites suck sap leaving stippling and fine webbing, worse in hot dry spells. Mist foliage, keep dust down, and use a miticide if colonies build.",
+        "next": "Ask your dealer for a miticide dose, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Fenazaquin 10% EC",
+            "dose": "2.5 ml/L",
+            "when": "Spray on mite infestation, repeat at 10-15 day intervals",
+            "phi": "per label",
+            "note": "TNAU/NCIPM recommendation",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Spiromesifen 240 SC",
+            "dose": "1.25-1.5 ml/L",
+            "when": "Spray on mite infestation",
+            "phi": "per label",
+            "note": "TNAU/NCIPM recommendation",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove infested leaves; avoid water stress; field sanitation",
+            "when": "Throughout season",
+            "note": "Mites thrive on dry, stressed plants",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर मकड़ी घुन",
+        "advice": "सूक्ष्म घुन रस चूसकर बिंदीदार धब्बे और महीन जाल छोड़ते हैं; गर्म-सूखे मौसम में अधिक। पत्तियों पर नमी दें, धूल कम करें और संक्रमण पर माइटिसाइड लगाएँ।",
+        "next": "दुकान से माइटिसाइड मात्रा लें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Fenazaquin 10% EC",
+            "dose": "2.5 ml/L",
+            "when": "घुन लगते ही छिड़कें, हर 10-15 दिन पर दोहराएँ",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU/NCIPM की सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Spiromesifen 240 SC",
+            "dose": "1.25-1.5 ml/L",
+            "when": "घुन लगने पर छिड़काव करें",
+            "phi": "लेबल के अनुसार",
+            "note": "TNAU/NCIPM की सलाह",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove infested leaves; avoid water stress; field sanitation",
+            "when": "पूरे मौसम में",
+            "note": "रोगी पत्तियाँ हटाएँ, पानी की कमी न होने दें, साफ़-सफ़ाई; घुन सूखे/तनाव वाले पौधों पर पनपते हैं",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி சிலந்திப் பூச்சி",
+        "advice": "சிறிய பூச்சிகள் சாறு உறிஞ்சி புள்ளிகள்/வலை விடும்; வறட்சியில் அதிகம். இலைகளுக்கு தண்ணீர் தெளித்து, பூச்சிக்கொல்லி பயன்படுத்தவும்.",
+        "next": "கடையில் பூச்சிக்கொல்லி அளவு கேளுங்கள் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Fenazaquin 10% EC",
+            "dose": "2.5 ml/L",
+            "when": "சிலந்திப் பூச்சி தோன்றியதும் 10-15 நாட்களுக்கு ஒருமுறை",
+            "phi": "லேபிள் படி",
+            "note": "TNAU/NCIPM பரிந்துரை",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Spiromesifen 240 SC",
+            "dose": "1.25-1.5 ml/L",
+            "when": "சிலந்திப் பூச்சி இருக்கும்போது தெளிக்க",
+            "phi": "லேபிள் படி",
+            "note": "TNAU/NCIPM பரிந்துரை",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Remove infested leaves; avoid water stress; field sanitation",
+            "when": "முழு பருவத்திலும்",
+            "note": "நோய் இலைகள் நீக்கு, நீரழுத்தம் தவிர்க்க, சுத்தம்; வறண்ட அழுத்த செடிகளில் பூச்சி ஓங்கும்",
+            "source": "TNAU Agritech Portal - Tomato",
+            "source_url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_5.html",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "tomato_target_spot": {
+      "en": {
+        "name": "Tomato target spot",
+        "advice": "Concentric rings on leaves in warm humid weather. Improve airflow, avoid wetting foliage, and apply a labeled fungicide (chlorothalonil/mancozeb) at early signs.",
+        "next": "Confirm a target-spot spray at your dealer, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Copper hydroxide 77% WP",
+            "dose": "2.0 g/L",
+            "when": "Spray at 25 days after transplanting",
+            "phi": "per label",
+            "note": "India source (West Bengal IDM); target spot listed as a major disease",
+            "source": "ARTOAJ - West Bengal tomato IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Fenamidone 10% + Mancozeb 50% WDG",
+            "dose": "0.25% (c. 2.5 g/L)",
+            "when": "2-3 sprays from 45 DAT at 10-day intervals",
+            "phi": "per label",
+            "note": "India source (same IDM package)",
+            "source": "ARTOAJ - West Bengal tomato IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Chlorothalonil 75% WP / copper oxychloride / mancozeb",
+            "dose": "Use CIB&RC-registered label rate",
+            "when": "At first spots every 10-14 days until 3-4 weeks before last harvest; cover both leaf surfaces",
+            "phi": "per label",
+            "note": "Verified timing; rate per registered label",
+            "source": "Lucid Plantwise",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/tomato_target_spot_163.htm",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rotation with non-solanaceous crops; weed-free plots; remove/burn lower leaves",
+            "when": "Throughout season",
+            "note": "Pathogen has a wide host range",
+            "source": "Lucid Plantwise",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/tomato_target_spot_163.htm",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "टमाटर टार्गेट स्पॉट",
+        "advice": "गर्म-नम मौसम में पत्तियों पर संकेंद्रित वलय। हवा बढ़ाएँ, पत्तियाँ गीली न करें और शुरुआती संकेत पर फफूंदनाशक (क्लोरोथैलोनिल/मैन्कोज़ेब) लगाएँ।",
+        "next": "दुकान पर टार्गेट स्पॉट स्प्रे की पुष्टि करें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Copper hydroxide 77% WP",
+            "dose": "2.0 g/L",
+            "when": "रोपाई के 25 दिन बाद छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "पश्चिम बंगाल IDM (भारतीय स्रोत)",
+            "source": "ARTOAJ - West Bengal tomato IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Fenamidone 10% + Mancozeb 50% WDG",
+            "dose": "0.25% (c. 2.5 g/L)",
+            "when": "रोपाई के 45 दिन से हर 10 दिन पर 2-3 छिड़काव",
+            "phi": "लेबल के अनुसार",
+            "note": "वही IDM पैकेज (भारतीय स्रोत)",
+            "source": "ARTOAJ - West Bengal tomato IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Chlorothalonil 75% WP / copper oxychloride / mancozeb",
+            "dose": "Use CIB&RC-registered label rate",
+            "when": "पहले धब्बे पर हर 10-14 दिन में, कटाई से 3-4 हफ़्ते पहले तक; दोनों पत्ती सतह ढकें",
+            "phi": "लेबल के अनुसार",
+            "note": "समय पक्का; मात्रा पंजीकृत लेबल के अनुसार",
+            "source": "Lucid Plantwise",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/tomato_target_spot_163.htm",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rotation with non-solanaceous crops; weed-free plots; remove/burn lower leaves",
+            "when": "पूरे मौसम में",
+            "note": "गैर-सोलानेसी फसल चक्र, खरपतवार रहित खेत; रोगी निचली पत्तियाँ हटाएँ",
+            "source": "Lucid Plantwise",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/tomato_target_spot_163.htm",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "தக்காளி இலக்கு புள்ளி",
+        "advice": "வெப்ப ஈரப்பதத்தில் இலைகளில் வளைய புள்ளிகள். காற்றோட்டம் அதிகரித்து, இலை ஈரம் தவிர்த்து, பூஞ்சைக்கொல்லி தெளிக்கவும்.",
+        "next": "கடையில் மருந்தை உறுதி செய்யவும் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "chemical",
+            "name": "Copper hydroxide 77% WP",
+            "dose": "2.0 g/L",
+            "when": "நடவு செய்த 25 நாட்களில் தெளிப்பு",
+            "phi": "லேபிள் படி",
+            "note": "மேற்கு வங்க IDM (இந்திய தரவு)",
+            "source": "ARTOAJ - West Bengal tomato IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Fenamidone 10% + Mancozeb 50% WDG",
+            "dose": "0.25% (c. 2.5 g/L)",
+            "when": "நடவு 45 நாட்களில் இருந்து 10 நாட்களுக்கு ஒருமுறை 2-3 தெளிப்புகள்",
+            "phi": "லேபிள் படி",
+            "note": "அதே IDM தொகுப்பு (இந்திய தரவு)",
+            "source": "ARTOAJ - West Bengal tomato IDM",
+            "source_url": "https://juniperpublishers.com/artoaj/pdf/ARTOAJ.MS.ID.555796.pdf",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Chlorothalonil 75% WP / copper oxychloride / mancozeb",
+            "dose": "Use CIB&RC-registered label rate",
+            "when": "முதல் புள்ளியில் 10-14 நாட்களுக்கு ஒருமுறை, அறுவடைக்கு 3-4 வாரங்கள் முன் வரை; இரு இலைப் பரப்பும்",
+            "phi": "லேபிள் படி",
+            "note": "நேரம் உறுதி; அளவு பதிவு லேபிள் படி",
+            "source": "Lucid Plantwise",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/tomato_target_spot_163.htm",
+            "verify": false
+          },
+          {
+            "type": "cultural",
+            "name": "Rotation with non-solanaceous crops; weed-free plots; remove/burn lower leaves",
+            "when": "முழு பருவத்திலும்",
+            "note": "சோலனேசி அல்லாத பயிர் சுழற்சி, களை இல்லா வயல்; கீழ் இலைகள் நீக்கு",
+            "source": "Lucid Plantwise",
+            "source_url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/tomato_target_spot_163.htm",
+            "verify": false
+          }
+        ]
+      }
+    },
+    "grape_healthy": {
+      "en": {
+        "name": "Grape leaf (healthy)",
+        "advice": "No disease signs. Keep vines spaced, practice balanced pruning, and monitor the leaf underside weekly.",
+        "next": "Routine monitoring protects the canopy from fungal pressure.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "No treatment needed",
+            "dose": "",
+            "when": "Only if symptoms appear",
+            "phi": "",
+            "note": "Healthy leaf - no pesticide required. Monitor weekly and avoid routine spraying to protect pollinators and beneficial insects."
+          }
+        ]
+      },
+      "hi": {
+        "name": "अंगूर की पत्ती (स्वस्थ)",
+        "advice": "कोई रोग लक्षण नहीं। बेलों में दूरी रखें, संतुलित छँटाई करें और पत्ती के नीचे की ओर साप्ताहिक निरीक्षण करें।",
+        "next": "नियमित निगरानी से फफूंद दबाव नियंत्रित रहता है।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "किसी इलाज की ज़रूरत नहीं",
+            "dose": "",
+            "when": "केवल लक्षण दिखने पर",
+            "phi": "",
+            "note": "यह पत्ती स्वस्थ है - कोई कीटनाशक न लगाएँ। हफ़्ते भर में देखें; परागण करने वाले फ़ायदेमंद कीटों की रक्षा के लिए अनाप-शनाप छिड़काव न करें।"
+          }
+        ]
+      },
+      "ta": {
+        "name": "திராட்சை இலை (ஆரோக்கியமானது)",
+        "advice": "நோய் அறிகுறி இல்லை. கொடிகளை இடைவெளியில் வைத்து, சீரான கத்தரித்தல், இலை அடிப்பகுதியை வாரந்தோறும் பாருங்கள்.",
+        "next": "வழக்கமான கண்காணிப்பு காளான் அழுத்தத்தை கட்டுப்படுத்தும்.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "சிகிச்சை தேவையில்லை",
+            "dose": "",
+            "when": "அறிகுறி தோன்றினால் மட்டும்",
+            "phi": "",
+            "note": "இலை ஆரோக்கியமானது - பூச்சிக்கொல்லி தேவையில்லை. வாரம் ஒருமுறை பாருங்கள்; தேனீ போன்ற பயனுள்ள பூச்சிகளை காக்க எளிதாக தெளிக்கவேண்டாம்."
+          }
+        ]
+      }
+    },
+    "grape_black_rot": {
+      "en": {
+        "name": "Grape black rot",
+        "advice": "Black rot hits berries and leaves in warm wet spells. Remove mummified fruit and raise the canopy, then apply a protective fungicide at bloom.",
+        "next": "Ask your dealer for a black-rot spray schedule, or call 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Remove/bury mummified berries and infected leaves",
+            "when": "Dormant season and during canopy management",
+            "note": "Mummies are the main overwintering inoculum of Guignardia bidwellii",
+            "source": "Cornell CALS",
+            "source_url": "https://cals.cornell.edu/news/2014/03/grapes-101-managing-black-rot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP (protectant)",
+            "dose": "0.25-0.4% (2.5-4 g/L)",
+            "when": "Pre-bloom + 2 post-bloom sprays; 7-10 d in rain, 14 d dry",
+            "phi": "per label",
+            "note": "Standard protectant; extend with myclobutanil tank-mix",
+            "source": "Cornell CALS",
+            "source_url": "https://cals.cornell.edu/news/2014/03/grapes-101-managing-black-rot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Myclobutanil (DMI)",
+            "dose": "per label",
+            "when": "Pre-bloom through ~2 weeks post-bloom (~3 applications)",
+            "phi": "per label (~14 d)",
+            "note": "Systemic with kickback; near-complete control around bloom",
+            "source": "doubleavineyards",
+            "source_url": "https://doubleavineyards.com/pages/black-rot",
+            "verify": false
+          }
+        ]
+      },
+      "hi": {
+        "name": "अंगूर ब्लैक रॉट",
+        "advice": "गर्म-नम मौसम में फल और पत्तियों को लगता है। ममीकृत फल हटाएँ, कैनोपी ऊपर उठाएँ और फूल आने पर सुरक्षात्मक फफूंदनाशक लगाएँ।",
+        "next": "दुकान से ब्लैक रॉट स्प्रे तालिका लें या 1800-180-1551।",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Remove/bury mummified berries and infected leaves",
+            "when": "सुप्तावस्था और पत्ते प्रबंधन में",
+            "note": "ममीकृत फल व रोगी पत्तियाँ हटाएँ/दबाएँ; ममी ही मुख्य शीतकालीन संक्रमण स्रोत",
+            "source": "Cornell CALS",
+            "source_url": "https://cals.cornell.edu/news/2014/03/grapes-101-managing-black-rot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP (protectant)",
+            "dose": "0.25-0.4% (2.5-4 g/L)",
+            "when": "पुष्पन से पहले + बाद में 2 छिड़काव; बारिश में 7-10, सूखे में 14 दिन",
+            "phi": "लेबल के अनुसार",
+            "note": "मानक बचाव; मायक्लोब्यूटानिल के साथ मिला सकते हैं",
+            "source": "Cornell CALS",
+            "source_url": "https://cals.cornell.edu/news/2014/03/grapes-101-managing-black-rot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Myclobutanil (DMI)",
+            "dose": "per label",
+            "when": "पुष्पन से पहले से ~2 हफ़्ते बाद तक (~3 छिड़काव)",
+            "phi": "लेबल के अनुसार (~14 d)",
+            "note": "सिस्टमिक, पीछे छूटे पर भी असर; पुष्पन के आसपास लगभग पूर्ण नियंत्रण",
+            "source": "doubleavineyards",
+            "source_url": "https://doubleavineyards.com/pages/black-rot",
+            "verify": false
+          }
+        ]
+      },
+      "ta": {
+        "name": "திராட்சை கருஞ்சிதைவு",
+        "advice": "வெப்ப ஈரப்பதத்தில் பழங்களையும் இலைகளையும் தாக்கும். சிதைந்த பழங்களை அகற்றி, பூக்கும் நேரத்தில் தடுப்பு மருந்து தெளிக்கவும்.",
+        "next": "கடையில் மருந்து அட்டவணை கேளுங்கள் அல்லது 1800-180-1551.",
+        "treatment": [
+          {
+            "type": "cultural",
+            "name": "Remove/bury mummified berries and infected leaves",
+            "when": "செயலற்ற காலம் & கூடார மேலாண்மை",
+            "note": "மம்மிஃபைட் பழங்கள் & நோய் இலைகள் நீக்கு/புதை; மம்மிகளே முதன்மை குளிர்கால நோய் மூலம்",
+            "source": "Cornell CALS",
+            "source_url": "https://cals.cornell.edu/news/2014/03/grapes-101-managing-black-rot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Mancozeb 75% WP (protectant)",
+            "dose": "0.25-0.4% (2.5-4 g/L)",
+            "when": "பூக்கும் முன் + பின் 2 தெளிப்பு; மழையில் 7-10, வறண்ட 14 நாள்",
+            "phi": "லேபிள் படி",
+            "note": "மானிய பாதுகாப்பு; மைக்குளோபூட்டனிலுடன் கலக்கலாம்",
+            "source": "Cornell CALS",
+            "source_url": "https://cals.cornell.edu/news/2014/03/grapes-101-managing-black-rot",
+            "verify": false
+          },
+          {
+            "type": "chemical",
+            "name": "Myclobutanil (DMI)",
+            "dose": "per label",
+            "when": "பூப்பதற்கு முன் ~2 வாரங்கள் வரை (~3 தெளிப்பு)",
+            "phi": "லேபிள் படி (~14 d)",
+            "note": "சிஸ்டமிக், கிக்பேக் உண்டு; பூ சுற்றிய கால முழு கட்டுப்பாடு",
+            "source": "doubleavineyards",
+            "source_url": "https://doubleavineyards.com/pages/black-rot",
+            "verify": false
+          }
+        ]
+      }
+    }
+  }
+}

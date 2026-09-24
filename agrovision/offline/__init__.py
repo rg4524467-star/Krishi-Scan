@@ -1,0 +1,1 @@
+"""Offline (Pyodide/stlite) runtime support: PWA shell + onnxruntime-web bridge."""

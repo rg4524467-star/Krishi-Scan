@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Krishi Scan PWA shell (stlite/WebAssembly).
+
+  The online Streamlit app in app.py is the SAME code served by this offline
+  shell: at build time the whole `agrovision/` package is embedded as the
+  `files` map below and stlite runs it inside the browser via Pyodide.
+  Offline-specific concerns:
+
+    * requirements are the reduced Pyodide package set (numpy, pillow,
+      onnxruntime) - heavyweight server deps like tensorflow are never loaded.
+    * model/ content is the quantized ONNX export + classes.json, fetched via
+      the service worker so it is cached after the first online load.
+    * the app detects the runtime (util.runtime) and uses the ONNX backend.
+
+  Build step (see README "Offline (stlite) mode"):
+    a) pip install stlite, then stlite build --source agrovision --out dist
+    b) copy dist/<app>.py into files below, or serve the whole package.
+    Simpler alternative used in dev: `stlite run ./index.html`.
+-->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#0b5e3b" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/krishi-scan-192.png" type="image/png" />
+  <title>Krishi Scan</title>
+  <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.57.0/build/stlite.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    #root { height: 100vh; }
+    .boot { display:flex; align-items:center; justify-content:center; height:100%; font-family: sans-serif; color:#0b5e3b; }
+  </style>
+</head>
+<body>
+  <div id="root"><div class="boot">Preparing Krishi Scan… (first run needs internet)</div></div>
+
+  <script type="module">
+    import { Streamlit } from "https://cdn.jsdelivr.net/npm/@stlite/mountable@0.57.0/build/stlite.js";
+
+    // Tiny app used by the bare dev shell.  During a full build this map is
+    // replaced by the real agrovision package (see README build step).
+    const files = {
+      "app.py": `
+import sys
+sys.path.insert(0, "/files")
+from app import main
+main()
+      `,
+    };
+
+    const stlite = new Streamlit(files, {
+      requirementsAspect: {
+        "numpy": "",
+        "pillow": "",
+        "onnxruntime": "",
+      },
+      /* After the first successful online load the service worker caches
+         these, making subsequent opens fully offline. */
+      manifest: "manifest.webmanifest",
+      urlLoader: validateCached,
+    });
+
+    function validateCached(url) {
+      // Called by stlite for asynchronously fetched files; returning the url
+      // keeps distribution simple (the SW already guarantees cache-hit).
+      return fetch;
+    }
+
+    stlite.mount(document.getElementById("root"));
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    }
+  </script>
+</body>
+</html>
